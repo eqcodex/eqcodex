@@ -1,6 +1,12 @@
 # Hugo related files
 public/
 
+# Firebase configuration files
+.firebaserc
+firebase.json
+firebase*.log
+.firebase/
+
 # Binaries for programs and plugins
 *.exe
 *.exe~

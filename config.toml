@@ -7,13 +7,16 @@ theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
+disqusShortname = "eqcodex"
+
 [params]
-  editURL = "https://github.com/eqcodex/eqcodex/content/"
+  editURL = "https://github.com/eqcodex/eqcodex/edit/master/content/"
   description = "EQCodex"
   author = "Xackery X`Tal, Mathieu Cornic"
   showVisitedLinks = false
   disableBreadcrumb = false
   disableNextPrev = true
+  themeVariant = "eqcodex"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -30,26 +33,11 @@ identifier = "ds"
 url = "https://github.com/eqcodex/eqcodex"
 weight = 10
 
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> Showcases"
-url = "showcase"
-weight = 11
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
-weight = 20
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
 url = "/credits"
 weight = 30
-
-[Languages.fr]
-title = "Documentation du thème Hugo Learn"
-weight = 2
-languageName = "Français"
 
 [[Languages.fr.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> Repo GitHub"
@@ -57,10 +45,6 @@ identifier = "ds"
 url = "https://github.com/eqcodex/eqcodex"
 weight = 10
 
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> Vitrine"
-url = "/showcase"
-weight = 11
 
 [[Languages.fr.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bookmark'></i> Documentation Hugo"

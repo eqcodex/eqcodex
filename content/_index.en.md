@@ -1,5 +1,5 @@
 ---
-title: "Learn Theme for Hugo"
+title: "EQ Codex"
 ---
 
-# Hugo learn theme
+# EQ Codex
