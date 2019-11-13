@@ -7,4 +7,4 @@ chapter: true
 
 ### Call of the Forsaken
 
-# Basics
+{{% children depth="3" %}}

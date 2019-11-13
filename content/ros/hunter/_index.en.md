@@ -6,12 +6,12 @@ weight: 1
 ---
 
 Name|Level|Zone|Drops
----|---|---|---
-[Banshee](Banshee)|113|The Overthere|
+---|---|---|--- 
+[Banshee](banshee)|113|The Overthere|
 [Bloodstalker](bloodstalker)|113|The Overthere|
 [a bluff golem](a_bluff_golem)|113|The Overthere|Knight 2h, Melee Shield, Melee Neck
 [Drakis](drakis)|113|The Overthere|
-[Fang](Fang)|113|The Overthere|
+[Fang](fang)|113|The Overthere|
 [a grotesque succulent](a_grotesque_succulent)|113|The Overthere|
 [an iron sentinel](an_iron_sentinel)|113|The Overthere|
 [Janissary Virzak](janissary_virzak)|113|The Overthere|

@@ -7,4 +7,4 @@ chapter: true
 
 ### The Serpent's Spine
 
-# Basics
+{{% children depth="3" %}}
