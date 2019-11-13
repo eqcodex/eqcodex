@@ -1,5 +1,5 @@
 ---
-title: Hunter (RoS)
+title: (RoS) Hunter
 menuTitle: Hunter
 description: Ring of Scale Hunter Cheat Sheet
 weight: 1

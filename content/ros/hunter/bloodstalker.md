@@ -5,6 +5,6 @@ hidden: true
 
 Name: Bloodstalker
 
-Zone: The Overthere
-
 Placeholder: a screeching chokidai
+
+Zone: The Overthere

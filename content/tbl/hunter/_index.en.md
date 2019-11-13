@@ -1,5 +1,5 @@
 ---
-title: Hunter (TBL)
+title: (TBL) Hunter
 menuTitle: Hunter
 description: The Burning Lands Hunter Cheat Sheet
 weight: 1

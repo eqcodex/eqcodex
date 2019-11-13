@@ -7,10 +7,10 @@ menuTitle: a bluff golem
 ---
 
 Name: a bluff golem
-   
-Zone: The Overthere
 
 Placeholder: a rocky cliff golem
+
+Zone: The Overthere
 
 Spells: 
 
