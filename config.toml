@@ -40,7 +40,7 @@ url = "/credits"
 weight = 30
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bullhorn'></i> Discord"
+name = "<i class='fab fa-fw fa-discord'></i> Discord"
 url = "https://discord.gg/nZNvXEm"
 weight = 40
 
