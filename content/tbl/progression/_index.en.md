@@ -7,16 +7,16 @@ weight: 25
 
 |C|Task|Tier|Type|Zone|NPC|Start|Enter|
 |---|---|---|---|---|---|---|---|
-P|<a href="https://tbl.eqresource.com/soldierofair.php" target="_blank">Soldier of Air</a>|1|Solo|Stratos|Grieving Soul Scent|deal with|n/a
-P|Fight Fire|1|Group|Stratos|Grieving Soul Scent |defeat|ready
-P|Trial of Smoke|1|Group|Stratos|Lamp (click)||
+P|<a href="https://tbl.eqresource.com/soldierofair.php" target="_blank">Soldier of Air</a>|1|Solo|[Stratos](/en/tbl/explorer/stratos)|Grieving Soul Scent|deal with|n/a
+P|Fight Fire|1|Group|[Stratos](/en/tbl/explorer/stratos)|Grieving Soul Scent |defeat|ready
+P|Trial of Smoke|1|Group|[Stratos](/en/tbl/explorer/stratos)|Lamp (click)||
 P|Prisoner's Dilemma|1|Solo|Empyr|Star Stealing Sage|could|
-P|Palace of Embers|1|Solo|Stratos|Great Sky Ocean|news||
+P|Palace of Embers|1|Solo|[Stratos](/en/tbl/explorer/stratos)|Great Sky Ocean|news||
 P|Prince Ralafin|1|Group|Empyr|Horizon Blighted Sage|gathered|ready
-P|Brass Palace|1|Group|Stratos|Great Sky Ocean|see it through|ready
-P|Key to the Kingdom|1|Solo|Stratos|Dusky Iron Meditation|accept|n/a
-P|Contract of War|2|Group|Stratos|Great Sky Ocean|mission|to go
-P|All Hail the King|2|Group|Stratos|Great Sky Ocean|work|
+P|Brass Palace|1|Group|[Stratos](/en/tbl/explorer/stratos)|Great Sky Ocean|see it through|ready
+P|Key to the Kingdom|1|Solo|[Stratos](/en/tbl/explorer/stratos)|Dusky Iron Meditation|accept|n/a
+P|Contract of War|2|Group|[Stratos](/en/tbl/explorer/stratos)|Great Sky Ocean|mission|to go
+P|All Hail the King|2|Group|[Stratos](/en/tbl/explorer/stratos)|Great Sky Ocean|work|
 P|Royal Visits|2|Solo|Esianti|Sky Orchid Understanding|continue|
 P|Tyrant of Fire|2|Group|Doomfire|Unrepentant Sunrise|Garnet Ring (click)|ready|
 P|Enter Mearatas|2|Solo|Aalashai|Blazing Sorrows Darkness|require||

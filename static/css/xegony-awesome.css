@@ -861,8 +861,14 @@ div#datatable-buttons_info {
 .eqitem {
   margin-left: 40px; }
 
-#logo a {
-  color: #fff; }
+.tank {
+  color: #ff0000; }
+
+.healer {
+  color: #00bbff; }
+
+.dps {
+  color: #00ff00; }
 
 /*!
  * XA Awesome, based on: RPG Awesome 0.0.2 by Daniela Howe, Ivan Montiel

@@ -5,39 +5,38 @@ description: Ring of Scale Hunter Cheat Sheet
 weight: 1
 ---
 
-Name|Level|Zone|Drops
----|---|---|--- 
-[Banshee](banshee)|113|The Overthere|
-[Bloodstalker](bloodstalker)|113|The Overthere|
-[a bluff golem](a_bluff_golem)|113|The Overthere|Knight 2h, Melee Shield, Melee Neck
-[Drakis](drakis)|113|The Overthere|
-[Fang](fang)|113|The Overthere|
-[a grotesque succulent](a_grotesque_succulent)|113|The Overthere|
-[an iron sentinel](an_iron_sentinel)|113|The Overthere|
-[Janissary Virzak](janissary_virzak)|113|The Overthere|
-[a Kar'Zok lacerator](a_karzok_lacerator)|113|The Overthere|
-[a majestic cockatrice](a_majestic_cockatrice)|113|The Overthere|
-[Myrmidon Tundak](myrmidon_tundak)|113|The Overthere|
-[Needle](needle)|113|The Overthere|
-[Observer Eyrzekla](observer_eyrzekla)|113|The Overthere|
-[Rigelon the Watcher](rigelon_the_watcher)|113|The Overthere|
-[Saber](saber)|113|The Overthere|
-*[Arcron Thaumaturge Osellik](arcron_thaumaturge_osellik)|113|The Overthere|
-*[Flamescale Overlord Takarious](flamescale_overlord_takarious)|113|The Overthere|
-[an Arcron researcher](an_arcron_researcher)|113|Skyfire Mountains|
-[Chirurgeon Hemofax](chirurgeon_hemofax)|113|Skyfire Mountains|
-[Dragoflux](dragoflux)|113|Skyfire Mountains|
-[a feverish marauder](a_feverish_marauder)|113|Skyfire Mountains|
-[Mawmun](mawmun)|113|Skyfire Mountains|
-[Old Raspy](old_raspy)|113|Skyfire Mountains|
-[a rabid reveler](a_rabid_reveler)|113|Skyfire Mountains|
-[Rirwech the Fink](rirwech_the_fink)|113|Skyfire Mountains|
-[Ritualist Bomoda](ritualist_bomoda)|113|Skyfire Mountains|
-[a scree-borne magmite](a_screeborne_magmite)|113|Skyfire Mountains|
-[Shardstubble](shardstubble)|113|Skyfire Mountains|
-[Skrizix](skrizix)|113|Skyfire Mountains|
-[a supercharged tyro](a_supercharged_tyro)|113|Skyfire Mountains|
-[The Crimson Sentinel](the_crimson_sentinel)|113|Skyfire Mountains|
-[The Gatekeeper](the_gatekeeper)|113|Skyfire Mountains|
-*[Ash Guardian Tolemak](ash_guardian_tolemak)|113|Skyfire Mountains|
-*[Radiant Overseer Triluan](radiant_overseer_triluan)|113|Skyfire Mountains|
+Drops|Name|Placeholder|Zone
+---:|---|---|--- 
+<a href=""><i title="ALL Belt - Banshee Wrecked Cincture" class="xa xa-ocarina"></i></a><a href=""><i title="PAL ROG SHD WAR Range - Screaming Strike" class="xa xa-ocarina tank"></i></a>|[Banshee](banshee)|a screeching chokidai|[The Overthere](/en/ros/explorer/the_overthere)
+<a href=""><i title="CLR DRU ENC MAG NEC SHM WIZ Shield - Aura of Sky Shield" class="xa xa-shield healer"></i></a>|[Bloodstalker](bloodstalker)| a blood-stained stalker|[The Overthere](/en/ros/explorer/the_overthere)
+<a href="http://everquest.allakhazam.com/db/item.html?item=131656"><i title="PAL SHD 2HS - Axe of Malevolence" class="xa xa-axe tank"></i></a> <a href="http://everquest.allakhazam.com/db/item.html?item=131637"><i title="WAR PAL SHD BRD Shield - Impervious Guardian's Buckler" class="xa xa-shield tank"></i></a> <a href="http://everquest.allakhazam.com/db/item.html?item=131616"><i title="ALL (Melee) Neck - Lost Stone Locket" class="xa xa-ocarina dps"></i></a>|[a bluff golem](a_bluff_golem)|a rocky cliff golem|[The Overthere](/en/ros/explorer/the_overthere)
+||[Drakis](drakis)|a dreadful scorpikis|[The Overthere](/en/ros/explorer/the_overthere)
+||[Fang](fang)|a stonepeep cockatrice|[The Overthere](/en/ros/explorer/the_overthere)
+||[a grotesque succulent](a_grotesque_succulent)|a sickly succulent|[The Overthere](/en/ros/explorer/the_overthere)
+||[an iron sentinel](an_iron_sentinel)|a rubble golem|[The Overthere](/en/ros/explorer/the_overthere)
+||[Janissary Virzak](janissary_virzak)|a Wulthan Zealot|[The Overthere](/en/ros/explorer/the_overthere)
+||[a Kar'Zok lacerator](a_karzok_lacerator)|a Ferreth procurator|[The Overthere](/en/ros/explorer/the_overthere)
+||[a majestic cockatrice](a_majestic_cockatrice)|a stoneglint cockatrice|[The Overthere](/en/ros/explorer/the_overthere)
+||[Myrmidon Tundak](myrmidon_tundak)|a Krellnakor officer|[The Overthere](/en/ros/explorer/the_overthere)
+||[Needle](needle)|a needle-covered succulent|[The Overthere](/en/ros/explorer/the_overthere)
+||[Observer Eyrzekla](observer_eyrzekla)|a mysterious sarnak|[The Overthere](/en/ros/explorer/the_overthere)
+||[Rigelon the Watcher](rigelon_the_watcher)|a shifty scorpikis|[The Overthere](/en/ros/explorer/the_overthere)
+||[Saber](saber)|a raging rhino|[The Overthere](/en/ros/explorer/the_overthere)
+||*[Arcron Thaumaturge Osellik](arcron_thaumaturge_osellik)|an arcron thaumaturge|[The Overthere](/en/ros/explorer/the_overthere)
+||*[Flamescale Overlord Takarious](flamescale_overlord_takarious)|a Krellnakor overlord|[The Overthere](/en/ros/explorer/the_overthere)
+||[Chirurgeon Hemofax](chirurgeon_hemofax)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||[Dragoflux](dragoflux)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||[a feverish marauder](a_feverish_marauder)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||[Mawmun](mawmun)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||[Old Raspy](old_raspy)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||[a rabid reveler](a_rabid_reveler)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||[Rirwech the Fink](rirwech_the_fink)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||[Ritualist Bomoda](ritualist_bomoda)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||[a scree-borne magmite](a_screeborne_magmite)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||[Shardstubble](shardstubble)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||[Skrizix](skrizix)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||[a supercharged tyro](a_supercharged_tyro)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||[The Crimson Sentinel](the_crimson_sentinel)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||[The Gatekeeper](the_gatekeeper)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||*[Ash Guardian Tolemak](ash_guardian_tolemak)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
+||*[Radiant Overseer Triluan](radiant_overseer_triluan)|113|[Skyfire Mountains](/en/ros/explorer/skyfire_mountains)
