@@ -1,0 +1,23 @@
+.classicon {
+	padding: 0px 2px 2px 0px;
+}
+.slotarea {
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+.slot {
+	background: url('/static/icons/items/slot_.gif');
+	width: 40px;
+	height: 40px;
+	float: left;
+	padding-left: 0px;
+	min-width: 40px;
+	min-height: 40px;
+}
+.item {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: -40px;
+}

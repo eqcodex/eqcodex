@@ -1,0 +1,1429 @@
+
+/* BASICS */
+/*======================================*/
+#page-head{
+    background: $body-bg;
+}
+
+body, #content-container{
+    background-color:  $body-bg;
+    color: $body-color
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+.text-main, a.text-main:hover, a.text-main:focus{
+    color: $body-main-color
+}
+
+#page-title, .page-header {
+    color: $body-main-color;
+}
+
+.page-fixedbar-content{
+    background-color: $content-dark ;
+    color: $body-color
+}
+
+
+.jumbotron{
+    padding: 30px;
+    background-color: $content-dark
+}
+
+
+.close{
+    color: $body-main-color;
+    &:focus, &:hover{
+        color: $body-main-color;
+    }
+}
+
+a{
+    color: $link-color;
+    &:hover, &:focus{
+        color: $link-hover-color;
+    }
+}
+code {
+    background-color: lighten($component-dark, 3%);
+    color: $state-active-bg;
+}
+
+#mainnav .list-divider{
+    border-color: $border-color-base
+}
+
+
+
+
+/* HORIZONTAL RULE */
+/*======================================*/
+hr{
+    border-color: $border-color-base;
+}
+
+
+
+/* THUMBNAILS */
+/*======================================*/
+.thumbnail{
+    background-color: $border-color-base;
+    border-color: $border-color-base;
+    .caption{
+        color: $body-color
+    }
+    &.selected{
+        box-shadow: inset 0 0 0 3px $state-active-bg
+    }
+}
+
+
+
+/* TABLES */
+/*======================================*/
+@if $table == true {
+    $border-color : $border-color-base;
+    #container{
+        .table{
+            th{
+                border-bottom: 1px solid $border-color;
+                color: $body-main-color
+            }
+            td{
+                border-top: 1px solid $border-color;
+            }
+        }
+        .table-bordered{
+            &, td, th{
+                border-color: $border-color;
+            }
+        }
+        .table-striped > tbody > tr:nth-child(2n+1){
+            background-color: rgba(255,255,255,0.025);
+        }
+        .table-hover > tbody > tr:hover{
+            background-color: rgba(0,0,0, .075);
+        }
+    }
+}
+
+
+
+/* FORM CONTROL  */
+/*======================================*/
+@if $form-control == true {
+    .form-control{
+        background-color: $component-dark;
+        border: 1px solid $border-color-base;
+        color: $body-color;
+        &:focus{
+            border-color: $state-active-bg;
+        }
+        &[disabled], &[readonly]{
+            background-color: darken($component-dark, 3%);
+            color: darken($body-color, 15%)
+        }
+        &-trans{
+            border: 0 !important;
+            background-color: transparent !important;
+        }
+    }
+    .input-group-addon{
+        border: 1px solid $border-color-base;
+        background-color: $component-dark;
+        color: $body-color;
+    }
+    fieldset[disabled] .form-control{
+        background-color: darken($component-dark, 3%);
+        color: darken($body-color, 15%)
+    }
+}
+
+
+
+/* NAV PILLS */
+/*======================================*/
+@if $nav-pills == true {
+    .nav{
+        &-pills{
+            >.active{
+                > a{
+                    &, &:hover, &:focus{
+                        background-color: $primary-bg;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/* LIST GROUP */
+/*======================================*/
+// Mixin
+// ----------------------------------------------
+@mixin list-variant($color, $background){
+    @at-root{
+        @at-root a#{&}, &{
+            background-color: lighten($background,7%);
+            border-color: transparent;
+            color: $color
+        }
+        @at-root a#{&}{
+            &:hover, &:focus{
+                background-color: lighten($background,10%);
+                color: $color
+            }
+        }
+    }
+}
+@if $list-group == true {
+    .list-group{
+        &-striped > li:nth-child(odd),
+        &-striped > a:nth-child(odd):not(.active):not(.disabled) {
+            background-color: rgba(255,255,255,0.025);
+        }
+    }
+
+    %list-group-item{
+        color: $body-color;
+    }
+
+    %list-group-item-hover{
+        background-color: rgba(0,0,0,.05);
+        color: $body-color;
+    }
+
+    %list-group-item-heading{
+        color: $body-main-color;
+    }
+
+    a.list-group-item, button.list-group-item{
+        @extend %list-group-item;
+        &:hover, &:focus{
+            @extend %list-group-item-hover;
+        }
+        .list-group-item-heading{
+            @extend %list-group-item-heading;
+        }
+    }
+
+    .list-group-item{
+        border-color: $border-color-base;
+        background-color: transparent;
+        @extend %list-group-item;
+        &.disabled{
+            &, &:hover, &:focus{
+                background-color: transparent;
+                color: $text-muted;
+            }
+        }
+        &.active{
+            &, &:hover, &:focus{
+                background-color: $state-active-bg !important;
+                border-color: $state-active-bg;
+                color: $state-active-color;
+                .list-group-item-text{
+                    color: $state-active-color;
+                }
+            }
+        }
+    }
+
+    // List variant
+    // ----------------------------------------------
+    .list-group-item-primary{
+        @include list-variant($primary-color, $primary-bg)
+    }
+
+    .list-group-item-info{
+        @include list-variant($info-color, $info-bg)
+    }
+
+    .list-group-item-success{
+        @include list-variant($success-color, $success-bg)
+    }
+
+    .list-group-item-warning{
+        @include list-variant($warning-color, $warning-bg)
+    }
+
+    .list-group-item-danger{
+        @include list-variant($danger-color, $danger-bg)
+    }
+
+    @if $enable-mint == true {
+        .list-group-item-mint{
+            @include list-variant($mint-color, $mint-bg)
+        }
+    }
+
+    @if $enable-purple == true {
+        .list-group-item-purple{
+            @include list-variant($purple-color, $purple-bg)
+        }
+    }
+
+    @if $enable-pink == true {
+        .list-group-item-pink{
+            @include list-variant($pink-color, $pink-bg)
+        }
+    }
+    @if $enable-dark == true {
+        .list-group-item-dark{
+            @include list-variant($dark-color, $dark-bg)
+        }
+    }
+
+}
+
+
+
+/* LABEL */
+/*======================================*/
+@if $label == true {
+    .label-default{
+        background-color: lighten($component-dark, 10%);
+        color: $body-color;
+        &[href]:hover, &[href]:focus{
+            background-color: darken(#e3e8ee, 5%)
+        }
+    }
+}
+
+
+
+/* BREADCRUMB */
+/*======================================*/
+@if $breadcrumb == true {
+    .breadcrumb{
+        li{
+            &, & a{
+                color: $body-main-color;
+            }
+            & a:hover{
+                color: $info-bg;
+            }
+        }
+        >li{
+            & + li:before{
+                border-color: $body-main-color;
+            }
+        }
+        .active{
+            color: $body-main-color;
+        }
+
+    }
+}
+
+
+
+/* MODALS */
+/*======================================*/
+@if $modal == true {
+    .modal{
+        &-footer{
+            background-color: transparent;
+            color: $body-color;
+            border-color: $border-color-base;
+        }
+        &-title{
+            font-size: 1.2em;
+            color: $body-main-color
+        }
+    }
+    .modal-content{
+        background-color: $content-dark
+    }
+}
+
+
+
+/* TOOLTIP */
+/*======================================*/
+@if $tooltip == true {
+    .tooltip{
+        &-inner{
+            background-color: $tooltip-bg
+        }
+        &.top{
+            .tooltip-arrow, &-left .tooltip-arrow, &-right .tooltip-arrow{
+                border-top-color: $tooltip-bg;
+            }
+        }
+        &.right{
+            .tooltip-arrow{
+                border-right-color: $tooltip-bg
+            }
+        }
+        &.left{
+            .tooltip-arrow{
+                border-left-color: $tooltip-bg
+            }
+        }
+        &.bottom{
+            .tooltip-arrow, &-left .tooltip-arrow, &-right .tooltip-arrow{
+                border-bottom-color: $tooltip-bg
+            }
+        }
+    }
+}
+
+
+
+/* POPOVER */
+/*======================================*/
+@if $popover == true {
+    $popover-bg : lighten($component-dark, 2.5%);
+
+    .popover{
+        background-color: $popover-bg;
+        border-color: $border-color-base;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+        &-title{
+            color: $body-main-color;
+        }
+        >.arrow{
+            border-width: 9px;
+            &:after{
+                border-width: 9px;
+            }
+        }
+        &.left{
+            >.arrow{
+                border-left-color: $popover-bg;
+                &:after{
+                    bottom: -9px;
+                    border-left-color: $popover-bg;
+                }
+            }
+        }
+        &.right{
+            >.arrow{
+                border-right-color: $popover-bg;
+                &:after{
+                    border-right-color: $popover-bg;
+                }
+            }
+        }
+        &.top{
+            >.arrow{
+                border-top-color: $popover-bg;
+                &:after{
+                    border-top-color: $popover-bg;
+                }
+            }
+        }
+        &.bottom{
+            >.arrow{
+                border-bottom-color: $popover-bg;
+                &:after{
+                    border-bottom-color: $popover-bg;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* DROPDOWN */
+/*======================================*/
+@if $dropdown == true {
+    .dropdown{
+        &-header{
+            color: $body-main-color;
+        }
+    }
+
+    .dropdown-menu{
+        background-color: lighten($component-dark, 2.5%);
+        > li > a{
+            color: $body-color
+        }
+        .divider{
+            background-color: $border-color-base
+        }
+        &:not(.head-list) >li{
+            >a{
+                &:hover{
+                    background-color: $state-active-bg;
+                    color: $state-active-color
+                }
+            }
+        }
+        &.with-arrow{
+            &:before{
+                border-bottom: 7px solid darken($border-color-base, 10%);
+            }
+            &:after{
+                border-bottom: 7px solid lighten($component-dark, 2.5%);
+            }
+        }
+    }
+}
+
+
+
+/* WELLS */
+/*======================================*/
+@if $well == true {
+    .well, pre{
+        background-color:  $component-dark;
+        border-color: $border-color-base;
+    }
+}
+
+
+
+/*======================================*/
+/* PAGER */
+/*======================================*/
+@if $pager == true {
+    .pager{
+        li{
+            > a, >span{
+                background-color: lighten($component-dark, 1%) !important;
+                border-color: darken($border-color-base, 2%);
+                color: $body-color;
+            }
+        }
+        .disabled{
+            > a, > span{
+                &{
+                    color: darken($body-color, 25%) !important;
+                    background-color: lighten($component-dark, 1%) !important;
+                    border-color: darken($border-color-base, 2%) !important;
+                    box-shadow: none !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+/*======================================*/
+/* PAGINATION */
+/*======================================*/
+@if $pagination == true{
+    .pagination{
+        >li{
+            color: $body-color;
+            >a, >span{
+                background-color: $component-dark;
+                border-color: darken($border-color-base,5%);
+            }
+            >span{
+                cursor: default;
+                &:hover{
+                    background-color: $component-dark;
+                    border-color: $border-color-base;
+                    color: inherit
+                }
+            }
+            &:not(.disabled):not(.active) a {
+                &:active{
+                    background-color: $state-active-bg !important;
+                    border-color: $state-active-bg;
+                    color: $state-active-color !important;
+                    box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.3) !important;
+                }
+                &:hover,&:focus{
+                    background-color: $component-dark;
+                    border-color: $state-active-bg;
+                    color: $state-active-bg;
+                    box-shadow: inset 0 0 1px $state-active-bg;
+                    z-index: 2;
+                    @include transition(border-color, .3s)
+                }
+            }
+        }
+        >.active{
+            >a, >span, >a:hover, >span:hover, >a:focus, >span:focus{
+                background-color: $state-active-bg;
+                border-color: $state-active-bg;
+            }
+        }
+        .disabled{
+            > a, > span{
+                box-shadow: none !important;
+                background-color: $component-dark !important;
+                color: darken($body-color, 25%) !important;
+                border-color: $border-color-base !important
+            }
+        }
+    }
+}
+
+
+
+/* TABS */
+/*======================================*/
+@if $tabs == true{
+    .tab{
+        &-base{
+            margin-bottom: 15px;
+            .tab-content{
+                background-color: $content-dark ;
+                .tab-footer{
+                    background-color: lighten($body-bg,3%);
+                    color: $body-color;
+                    border-color: lighten($body-bg,1%);
+                }
+            }
+            .nav-tabs{
+                border:0;
+                >li:not(.active){
+                    >a{
+                        background-color: darken($content-dark , 3.5%);
+                        &:hover{
+                            background-color: $content-dark ;
+                            border-color: $content-dark ;
+                        }
+                    }
+                }
+                > .active{
+                    > a, a:hover, > a:focus{
+                        background-color: $content-dark ;
+                        border-color: transparent
+                    }
+                }
+            }
+        }
+    }
+
+    .nav-tabs{
+        li a{
+            color: $body-color;
+        }
+        > li.active{
+            > a, > a:hover, > a:focus{
+                background-color: $content-dark ;
+                color: $body-main-color;
+                border-color: transparent;
+            }
+        }
+    }
+
+    .tab-stacked{
+        &-left, &-right{
+            display: table;
+            height: 100%;
+            width: 100%;
+            & .nav-tabs{
+                >li{
+                    float: none;
+                    margin: 0;
+                    >a{
+                        margin: 0 0 2px;
+                    }
+                    &:last-child{
+                        > a{
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+            & .nav-tabs, & .tab-content{
+                display: table-cell;
+                vertical-align: top
+            }
+            .tab-content{
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+
+
+/* BUTTONS */
+/*======================================*/
+@if $buttons == true{
+    .btn-link{
+        color: $info-bg;
+        &:hover, &:active, &:focus{
+            color: darken($info-bg, 10%)
+        }
+    }
+    .btn-default-mix{
+        background-color: darken($component-dark, 4%) !important;
+        border-color: darken($component-dark, 4%) !important;
+        color: $body-color !important;
+    }
+    .btn-default{
+        i{color: inherit};
+        &, &:focus{
+            background-color: $component-dark;
+            border-color: $border-color-base !important;
+            color: $body-color;
+        }
+        @if $include-btn-hover == true and $include-btn-active == true{
+            &.disabled, &:disabled,
+            &:active:not([class*="btn-active-"]),
+            &.active:not([class*="btn-active-"]),
+            &:hover:not([class*="btn-hover-"]):not([class*="btn-active-"]),
+            &[class^="btn-active-"]:hover:not(:active):not(.active):not(.dropdown-toggle),
+            &[class*=" btn-active-"]:hover:not(:active):not(.active):not(.dropdown-toggle){
+              @extend .btn-default-mix;
+            }
+        }
+        @if $include-btn-hover == false and $include-btn-active == false{
+            &:hover, &:active, &.active{
+                @extend .btn-default-mix;
+            }
+        }
+        @at-root{
+            &:not([class*="btn-active-"]) + .dropdown-menu > li >a:hover,
+            &:not([class*="btn-active-"]) + .dropdown-menu > li >a:focus,
+            &:not([class*="btn-active-"]) + .dropdown-menu > .active > a,
+            & + .dropdown-menu:not(.head-list) > li > a.active,
+            .open > .dropdown-toggle#{&}{
+                @extend .btn-default-mix;
+            }
+        }
+    }
+
+    .dropdown > .dropdown-toggle.btn-default:hover,
+    .dropdown.open > .dropdown-toggle.btn-default{
+        @extend .btn-default-mix;
+    }
+
+}
+
+
+
+/* PANELS */
+/*======================================*/
+@if $panels == true{
+    .panel,
+    .bg-img ~ .cls-content .panel{
+        background-color: $content-dark ;
+    }
+    .panel-trans{
+        border-color: transparent;
+        background-color: transparent
+    }
+    .panel-heading{
+        color: $body-main-color;
+    }
+    .panel-default.panel-colorful{
+        background-color: $content-dark ;
+        color: $body-main-color;
+    }
+
+    .panel-default .panel-heading{
+        background-color: $content-dark ;
+        border-color: $content-dark ;
+    }
+
+    .panel-footer{
+        background-color: lighten($content-dark , 1%);
+        color: $body-color;
+        border-color: $border-color-base;
+    }
+
+
+    /* Panel with tabs */
+    /*---------------------------------*/
+    @if $panel-w-tabs == true{
+        $max-tabs-height : 40px;
+        .panel{
+            .panel-control .nav-tabs{
+                > .active > a{
+                    background-color: transparent;
+                    box-shadow: inset 0 -2px 0 0 darken($state-active-bg, 5%) !important;
+                    color: inherit
+                }
+            }
+        }
+    }
+}
+
+
+
+/* FILE MANAGER */
+/*======================================*/
+@if $file-manager == true {
+    .file-list .file-name{
+        color: $body-main-color
+    }
+}
+
+
+
+/* PRICING TABLES */
+/* =====================================*/
+@if $pricing-tables == true {
+    .pricing {
+        .pricing-title, .pricing-list li, .pricing-list strong{
+            color: $body-main-color
+        }
+    }
+}
+
+
+
+/* TASKLIST */
+/*======================================*/
+@if $tasklist == true {
+    .tasklist {
+        li{
+            background-color: $content-dark ;
+            color: $body-color;
+        }
+        .task-footer{
+            color: inherit
+        }
+        .task-placeholder {
+            border: 1px dashed rgba(255, 255, 255, 0.5) !important;
+            background-color: rgba(255, 255, 255, 0.09) !important;
+        }
+    }
+}
+
+
+
+/* CHAT */
+/*======================================*/
+@if $chat == true {
+    .chat-user-list {
+        .chat-unread .chat-username {
+            color: $body-main-color;
+        }
+    }
+    .chat-body {
+        background-color: $chat-bg;
+        .chat-user .media-body > div {
+            > span,
+            > p {
+                background-color: $chat-secondary-speech-bg;
+                color: $chat-secondary-speech-color;
+            }
+        }
+        .chat-meta-day {
+            .badge {
+                background-color: $chat-secondary-speech-bg;
+                color: inherit !important
+            }
+        }
+    }
+}
+
+
+
+/* INVOICE */
+/*======================================*/
+@if $invoice == true {
+    #container {
+        .invoice-summary tbody>tr>td>strong,
+        .invoice-total>tbody>tr td:first-child{
+            color: $body-main-color
+        }
+    }
+}
+
+
+
+/* FILE MANAGER */
+/*======================================*/
+@if $file-manager == true {
+    @media (min-width:768px) {
+        .file-manager .file-sidebar {
+            border-right: 1px solid $border-color-base
+        }
+        .file-toolbar {
+            > .btn-file-toolbar {
+                &:not(:first-child) {
+                    border-left: 1px solid $border-color-base;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* BLOGS */
+/*======================================*/
+@if $blog == true {
+    .blog-details .blog-header small{
+        background-color: $content-dark
+    }
+    .blog .blog-footer{
+        border-color: $border-color-base
+    }
+}
+
+
+
+/* EMAIL */
+/*======================================*/
+@if $email == true {
+    .mail-list {
+        .mail-list-unread a {
+            color: $body-main-color
+        }
+    }
+    .mail-nav-unread{
+        color: $body-main-color !important
+    }
+    .mail-message{
+        border-color: $border-color-base;
+        strong, b{
+            color: $body-main-color
+        }
+    }
+}
+
+
+
+/* TAGS */
+/*======================================*/
+.tag:not(.label) {
+    background-color: rgba(255,255,255,.05);
+    border-color: rgba(255,255,255,.05);
+    color: inherit
+}
+
+
+
+/* BORDER */
+/*======================================*/
+.bord-no{border:0 !important}
+.bord-all{border:1px solid $border-color-base}
+.bord-top{border-top:1px solid $border-color-base}
+.bord-btm{border-bottom: 1px solid $border-color-base}
+.bord-lft{border-left: 1px solid $border-color-base}
+.bord-rgt{border-right:1px solid $border-color-base}
+.bord-ver{
+    border-top: 1px solid $border-color-base;
+    border-bottom: 1px solid $border-color-base
+}
+.bord-hor{
+    border-right: 1px solid $border-color-base;
+    border-left: 1px solid $border-color-base
+}
+
+
+
+/* FIXED FLUID GRID SYSTEM */
+/*======================================*/
+@media (min-width: 768px){
+    .fixed-fluid{
+        > .fixed-left-border{
+            border-left: 1px solid $border-color-base;
+        }
+        > .fixed-right-border{
+            border-right: 1px solid $border-color-base;
+        }
+    }
+}
+
+
+
+/* TEXTS */
+/*======================================*/
+@mixin text-color-variant($color){
+    @at-root {
+        &, a#{&}:hover, a#{&}:focus{
+            color : darken($color, 7%)
+        }
+    }
+}
+
+@if $txt == true {
+    .text-light, a.text-light:hover, a.text-light:focus{
+        color : $light-bg
+    }
+    .text-muted{@include text-color-variant(lighten($text-muted, 5%))}
+    .text-primary{@include text-color-variant($primary-bg)}
+    .text-info{@include text-color-variant($info-bg)}
+    .text-success{@include text-color-variant($success-bg)}
+    .text-warning{@include text-color-variant($warning-bg)}
+    .text-danger{@include text-color-variant($danger-bg)}
+    .text-main{
+         @at-root {
+            &, a#{&}:hover, a#{&}:focus{
+                color : $body-main-color
+            }
+        }
+    }
+
+    @if $enable-mint == true {
+        .text-mint{@include text-color-variant($mint-bg)}
+    }
+    @if $enable-purple == true {
+        .text-purple{@include text-color-variant($purple-bg)}
+    }
+    @if $enable-pink == true {
+        .text-pink{@include text-color-variant($pink-bg)}
+    }
+    @if $enable-dark == true {
+        .text-dark{@include text-color-variant($dark-bg)}
+    }
+
+}
+
+
+
+/* BACKGROUNDS */
+/*======================================*/
+@mixin bg-variant($color, $background){
+    background-color: $background;
+    &, & a{
+        color: $color;
+    }
+    & a:hover, & a:focus{
+        color: $color
+    }
+}
+
+@if $bg == true {
+    .bg-trans{
+        background-color: transparent
+    }
+    .bg-light{@include bg-variant($light-color, $light-bg)}
+    .bg-gray-light{@include bg-variant($gray-color, lighten($gray-bg,5%))}
+    .bg-gray{@include bg-variant($gray-color, $gray-bg)}
+    .bg-gray-dark{@include bg-variant($gray-color, darken($gray-bg,10%))}
+    .bg-trans-light{@include bg-variant(inherit, rgba(255,255,255,.1))}
+    .bg-trans-dark{@include bg-variant(inherit, rgba(0,0,0,.1))}
+
+    .bg-primary{@include bg-variant($primary-color, $primary-bg)}
+    .bg-info{@include bg-variant($info-color, $info-bg)}
+    .bg-success{@include bg-variant($success-color, $success-bg)}
+    .bg-warning{@include bg-variant($warning-color, $warning-bg)}
+    .bg-danger{@include bg-variant($danger-color, $danger-bg)}
+
+    @if $enable-mint == true {
+        .bg-mint{@include bg-variant($mint-color, $mint-bg)}
+    }
+    @if $enable-purple == true {
+        .bg-purple{@include bg-variant($purple-color, $purple-bg)}
+    }
+    @if $enable-pink == true {
+        .bg-pink{@include bg-variant($pink-color, $pink-bg)}
+    }
+    @if $enable-dark == true {
+        .bg-dark{@include bg-variant($dark-color, $dark-bg)}
+    }
+}
+
+
+
+/* MAGIC CHECK */
+/*======================================*/
+@if $magic-check == true{
+    .magic-radio + label:before, .magic-checkbox + label:before{
+        border-color: rgba($border-color-base, 0.15);
+    }
+    .magic-radio:checked + label:before{
+        border-color: rgba($border-color-base, 0.70);
+    }
+}
+
+
+
+/* NIFTY PURE CSS SELECT COMPONENT */
+/*======================================*/
+.select{
+    select{
+        background-color: $component-dark;
+        border-color: $border-color-base
+    }
+}
+
+
+.demo-icon-list i,
+.demo-icon-list .demo-icon:hover,
+.demo-flag-name{
+    color: $body-main-color;
+}
+
+.bootstrap-tagsinput{
+    background-color: $component-dark;
+    border-color: $border-color-base;
+}
+.flotTip{
+    &, .text-main{
+        color: $component-dark !important;
+    }
+}
+
+
+/* NIFTY OVERLAY */
+/*======================================*/
+@if $nifty-overlay == true {
+    .panel-overlay{
+        background-color: $content-dark;
+        opacity: .75
+    }
+}
+
+
+
+body{
+
+/* NESTABLE LIST */
+/*======================================*/
+@if $nestable-list == true{
+    .dd-bg, .dd-content{
+        background-color: $component-dark;
+        color: inherit
+    }
+    .dd-bg:hover{
+        background-color: darken($component-dark, 4%)
+    }
+    .dd-placeholder,
+    .dd-empty {
+        border: 1px dashed #a0a4a8;
+        background-color: lighten($component-dark, 4%);
+    }
+    @keyframes dd-update {
+        1% {
+            color: $state-active-color;
+            background-color: $state-active-bg;
+        }
+        100% {
+            background-color: $component-dark;
+        }
+    }
+
+    @keyframes dd-dragging {
+        1% {
+            background-color: $component-dark;
+            box-shadow: none
+        }
+        100% {
+            background-color: $state-active-bg;
+            color: $state-active-color;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, .15)
+        }
+    }
+}
+
+
+
+/* JSTREE */
+/*======================================*/
+@if $jstree == true{
+    .jstree-default .jstree-hovered{
+        background-color: rgba(255,255,255,0.07)
+    }
+}
+
+
+/* X-EDITABLE */
+/*======================================*/
+@if $xeditable == true{
+    .editable-empty, .editable-empty:hover, .editable-empty:focus{
+        color: lighten($danger-bg, 5%)
+    }
+}
+
+
+
+/* FULL CALENDAR */
+/* =====================================*/
+@if $full-calendar == true{
+    #container {
+        .fc-unthemed{
+            th, td, hr, thead, tbody, .fc-row, .fc-popover{
+                border-color: $border-color-base
+            }
+            .fc-popover .fc-header, hr{
+                background-color: $border-color-base
+            }
+        }
+        .fc-button, .fc button{
+            background-color: $component-dark;
+            border-color: $border-color-base !important;
+            color: $body-color;
+            &:hover{
+                background-color: darken($component-dark, 4%);
+                border-color: darken($component-dark, 4%);
+                color: $body-color;
+            }
+        }
+        .fc-event.fc-list{
+            background-color: lighten($component-dark, 3%);
+        }
+    }
+}
+
+
+
+/* SELECT2 */
+/* =====================================*/
+@if $select2 == true{
+    /* Single Select */
+    /*----------------------------------------*/
+    .select2-dropdown {
+        background-color: $component-dark;
+        border: 1px solid $border-color-base;
+    }
+
+    .select2-close-mask {
+        background-color: $component-dark;
+    }
+    .select2-container--default .select2-selection--single {
+        background-color: $component-dark;
+        border-color: $border-color-base !important;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        color: $body-main-color !important;
+    }
+    .select2-results__group, .select2-container--default .select2-results__option .select2-results__option,
+    .select2-container--default .select2-selection--single .select2-selection__placeholder {
+        color: $body-main-color;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__arrow b {
+        border-color: $body-main-color transparent transparent transparent;
+    }
+    .select2-container--default.select2-container--disabled .select2-selection--single {
+        background-color: $component-dark;
+        cursor: default;
+    }
+    .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+        border-color: transparent transparent $body-main-color transparent;
+    }
+
+
+
+    /* Multiple */
+    /*----------------------------------------*/
+    .select2-container--default .select2-selection--multiple {
+        background-color: $component-dark;
+        border: 1px solid $border-color-base;
+    }
+    .select2-container--default .select2-selection--multiple .select2-selection__placeholder {
+        color: $body-main-color;
+    }
+    .select2-container--default .select2-selection--multiple .select2-selection__choice {
+        background-color: $state-active-bg;
+        border: 1px solid $state-active-bg;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+        color: $state-active-color;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+        color: $body-main-color;
+    }
+
+    .select2-container--default.select2-container--disabled .select2-selection--multiple {
+        background-color: $component-dark;
+    }
+
+
+
+
+    /* Search Result */
+    /*--------------------------------------*/
+    .select2-container--default .select2-search--dropdown .select2-search__field {
+        background-color: lighten($component-dark, 3%);
+        border: 1px solid $border-color-base;
+    }
+
+    .select2-container--default .select2-results__option[aria-disabled=true] {
+        color:  $body-main-color;
+    }
+
+    .select2-container--default .select2-results__option[aria-selected=true] {
+        background-color: $component-dark;
+    }
+    .select2-container--default .select2-results__option--highlighted[aria-selected] {
+        background-color: $state-active-bg;
+        color: $state-active-color;
+    }
+}
+
+
+
+/* CHOSEN */
+/* =====================================*/
+@if $chosen == true{
+    /* Single Select  */
+    /*--------------------------------------*/
+    .chosen-container-single .chosen-single,
+    .chosen-container .chosen-drop,
+    .chosen-container .chosen-results li.no-results{
+        background-color: $component-dark;
+        color: $body-main-color;
+    }
+
+    .chosen-container-single .chosen-single div b:before,
+    .chosen-container .chosen-results{
+        color: $body-main-color;
+    }
+    .chosen-container-active.chosen-with-drop .chosen-single{
+        background-color: $component-dark;
+        border-color: $border-color-base;
+        box-shadow: none;
+        color: $body-main-color;
+    }
+    .chosen-container-active .chosen-choices, .chosen-container-single .chosen-search input[type="text"]{
+        background-color: lighten($component-dark, 3%);
+        border-color: $border-color-base;
+    }
+
+    .chosen-container-single .chosen-single,
+    .chosen-container .chosen-drop{
+        border-color: $border-color-base;
+    }
+    .chosen-container .chosen-results li.highlighted {
+        background-color: $state-active-bg;
+        background-image: none;
+        color: $state-active-color;
+    }
+
+    /* Multiple Select  */
+    /*--------------------------------------*/
+    .chosen-container-multi .chosen-choices{
+        background-color: $component-dark;
+        border-color: $border-color-base;
+        color: $body-main-color;
+    }
+}
+
+
+
+/* BOOTSTRAP SELECT */
+/* =====================================*/
+@if $bootstrap-select == true{
+    .bootstrap-select>.btn.btn-default.dropdown-toggle,
+    .bootstrap-select>.btn.btn-default.dropdown-toggle:hover{
+        background-color: $component-dark;
+        color: $body-main-color;
+        border-color: $border-color-base !important;
+    }
+    .dropdown-menu li:not(.active) a:not(:hover),
+    .bootstrap-select>.btn.btn-default .caret{
+        color: $body-main-color;
+    }
+    .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover,
+    .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+        background-color: $state-active-bg;
+        color: $state-active-color !important;
+    }
+    .bootstrap-select.btn-group .no-results{
+        background-color: transparent;
+        color: $body-main-color;
+    }
+    .bootstrap-select .form-control{
+        background-color: $component-dark;
+        border: 1px solid $border-color-base;
+        color: $body-color;
+    }
+    .bootstrap-select .dropdown-toggle:focus{
+        outline: none !important;
+    }
+}
+
+
+
+/* BOOTSTRAP TIMEPICKER */
+/* =====================================*/
+@if $bootstrap-timepicker == true{
+    .bootstrap-timepicker-widget table td a{
+        color: $body-main-color
+    }
+}
+
+
+
+/* DATEPICKER */
+/* =====================================*/
+@if $datepicker == true{
+    .datepicker table thead{
+        color: $body-main-color
+    }
+}
+
+
+
+/* NOUI SLIDER */
+/* =====================================*/
+@if $noui-slider == true{
+    .noUi-connect{
+        background: $state-active-bg;
+    }
+
+    .noUi-handle {
+        background: $state-active-bg;
+    }
+    .noUi-marker-large,
+    .noUi-marker {
+        background: rgba(255,255,255, .2);
+    }
+}
+
+
+
+/* SWITCHERY */
+/* =====================================*/
+@if $switchery == true{
+    .switchery{
+        background-color: rgba(255,255,255, .2) !important;
+        border-color: rgba(0,0,0, .07) !important;
+    }
+}
+
+
+
+/* SUMMERNOTE */
+/* =====================================*/
+@if $summernote == true{
+    .note-editable.panel-body{
+        border: 1px solid $border-color-base
+    }
+    .note-editor.note-frame .note-editing-area .note-editable{
+        background-color: $component-dark;
+    }
+    .note-editor.note-frame .note-statusbar{
+        background-color: darken($content-dark , 2%);
+    }
+    .note-editor.note-frame .note-editing-area .note-editable{
+        color: $body-main-color
+    }
+}
+
+
+
+/* BOOTSTRAP MARKDOWN */
+/* =====================================*/
+@if $bootstrap-markdown == true{
+    .md-editor,
+    .md-editor active{
+        border-color: $component-dark;
+    }
+    .md-editor>.md-header, .md-editor .md-footer{
+        background-color: darken($content-dark , 2%);
+    }
+    .md-editor>textarea{
+        background-color: $component-dark;
+        border-color: $component-dark;
+    }
+
+    .md-editor>.md-preview,
+    .md-editor>textarea:focus{
+        background-color: lighten($content-dark , 5%);
+        border-color: $component-dark;
+    }
+    .md-editor.md-fullscreen-mode{
+        background-color: darken($content-dark , 2%) !important
+    }
+    .md-editor.md-fullscreen-mode .md-input, .md-editor.md-fullscreen-mode .md-preview,
+    .md-editor.md-fullscreen-mode .md-input:hover, .md-editor.md-fullscreen-mode .md-input:focus{
+        background-color: lighten($content-dark , 5%) !important;
+        color: $body-color
+    }
+}
+}

@@ -1,0 +1,15 @@
+// Base Class Definition
+// -------------------------
+$xa-css-prefix:       xa !default;
+
+.#{$xa-css-prefix} {
+  font-family: XegonyAwesome;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}

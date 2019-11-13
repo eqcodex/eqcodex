@@ -1,0 +1,103 @@
+@if $fixedbar == true {
+    .page-fixedbar-container > .page-fixedbar-content > .nano > .nano-content {
+        position: static;
+    }
+
+    .page-fixedbar-content {
+        background-color: $fixedbar-bg;
+        color: $fixedbar-color;
+        border: 0;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
+        border-radius: $border-radius-base;
+        margin: $grid-gutter-width $grid-gutter-width 0
+    }
+    .page-fixedbar-content > .nano {
+        border-width: 0 1px;
+        border-style: solid;
+        border-color: $border-color-base;
+    }
+    @media (min-width:768px) {
+        .page-fixedbar-container > .page-fixedbar-content > .nano > .nano-content {
+            position: absolute;
+        }
+        .page-fixedbar-container {
+            padding: 0;
+            position: absolute;
+            width: $fixedbar-width;
+            height: auto;
+            left: 0;
+            right: auto;
+            top: 0;
+            bottom: 0;
+            min-height: 100vh;
+            overflow: hidden;
+            z-index: 1;
+        }
+        .page-fixedbar-content {
+            box-shadow: none;
+            margin: 0;
+            padding-top: $navbar-height;
+            padding-bottom: $navbar-height / 2;
+            height: 100%
+        }
+        .page-fixedbar #page-head,
+        .page-fixedbar #page-content {
+            margin-left: $fixedbar-width;
+        }
+        .mainnav-sm .page-fixedbar-container {
+            left: $mainnav-sm-width;
+        }
+        .mainnav-lg .page-fixedbar-container {
+            left: $mainnav-lg-width;
+        }
+
+
+        /* Right Fixedbar */
+        /* -------------------------------------*/
+        .page-fixedbar.page-fixedbar-right #page-head,
+        .page-fixedbar.page-fixedbar-right #page-content {
+            margin-left: 0;
+            margin-right: $fixedbar-width;
+        }
+        .page-fixedbar.page-fixedbar-right .page-fixedbar-container{
+            left: auto;
+            right: 0
+        }
+
+    }
+    @media (min-width: 1024px) {
+        .mainnav-sm.aside-in.aside-left:not(.aside-float):not(.page-fixedbar-right) .page-fixedbar-container {
+            left: abs($aside-width + $mainnav-sm-width) - 1;
+        }
+        .mainnav-lg.aside-in.aside-left:not(.aside-float):not(.page-fixedbar-right) .page-fixedbar-container {
+            left: abs($aside-width + $mainnav-lg-width) - 1;
+        }
+        .mainnav-in.aside-in.aside-left:not(.aside-float):not(.page-fixedbar-right) .page-fixedbar-container {
+            left: $aside-width - 1;
+        }
+        .mainnav-out.aside-in.aside-left:not(.aside-float):not(.page-fixedbar-right) .page-fixedbar-container {
+            left: $aside-width - 1;
+        }
+
+
+
+        /* Right Fixedbar */
+        /* -------------------------------------*/
+        .page-fixedbar.page-fixedbar-right.mainnav-sm.aside-in:not(.aside-float):not(.aside-left) .page-fixedbar-container {
+            right: $aside-width - 1;
+            left: auto;
+        }
+        .page-fixedbar.page-fixedbar-right.mainnav-lg.aside-in:not(.aside-float):not(.aside-left) .page-fixedbar-container {
+            right: $aside-width - 1;
+            left: auto;
+        }
+        .page-fixedbar.page-fixedbar-right.mainnav-in.aside-in:not(.aside-float):not(.aside-left) .page-fixedbar-container {
+            right: $aside-width - 1;
+            left: auto;
+        }
+        .page-fixedbar.page-fixedbar-right.mainnav-out.aside-in:not(.aside-float):not(.aside-left) .page-fixedbar-container {
+            right: $aside-width - 1;
+            left: auto;
+        }
+    }
+}

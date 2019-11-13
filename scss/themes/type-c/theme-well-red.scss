@@ -1,0 +1,90 @@
+@import "../../_variables";
+
+
+
+
+
+// BODY
+//============================================
+$body-bg                    : #fff;
+$body-color                 : #758697;
+$boxed-bg                   : #545f63;
+$text-muted                 : lighten($body-color, 20%);
+
+
+
+
+// GENERAL COMPONENTS
+//============================================
+$state-active-bg            : #d32f2f;
+$state-active-color         : #fff;
+
+$selection-bg               : $state-active-bg;
+$selection-color            : $state-active-color;
+
+
+
+
+// CLEAN ZONE (LOGIN, REGISTER, AND ERROR PAGES CONTAINER)
+//============================================
+$cls-bg                     : $body-bg;
+$cls-color                  : darken($body-color, 7%);
+
+
+
+
+// NAVIGATION
+//============================================
+$mainnav-bg                 : darken($state-active-bg, 5%);
+$mainnav-color              : lighten($mainnav-bg, 50%);
+$mainnav-hover-color        : #fff;
+$mainnav-active-bg          : transparent;
+$mainnav-active-color       : #fff;
+$mainnav-active-state       : $state-active-bg;
+$mainnav-profile-bg         : $mainnav-bg;
+$mainnav-profile-color      : $mainnav-hover-color;
+
+
+
+
+// NAVBAR & LOGO
+//============================================
+$navbar-bg                  : #fff;
+$navbar-color               : $body-color;
+$brand-bg                   : transparent;
+$brand-bg-overlay           : $mainnav-bg;
+$brand-color                : $state-active-color;
+$brand-color-overlay        : darken($navbar-color, 10%);
+
+
+
+
+// ASIDE
+//============================================
+$aside-dark-bg              : #344146;
+$aside-dark-color           : #fff;
+$aside-bright-bg            : #fff;
+$aside-bright-color         : $body-color;
+
+
+
+
+// TIMELINE
+//============================================
+$timeline-bg                : $body-bg;
+$timeline-color             : $body-color;
+$timeline-border-color      : lighten($body-color, 25%);
+
+
+
+
+// FOOTER
+//============================================
+$footer-bg                  : lighten($body-bg, 3%);
+$footer-color               : $body-color;
+
+
+
+
+//============================================
+@import "../_themes";

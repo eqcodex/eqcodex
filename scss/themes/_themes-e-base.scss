@@ -1,0 +1,43 @@
+// CUSTOM STYLE
+//============================================
+#content-container:before{
+    content: '';
+    display: block;
+    height: 165px;
+    width: 100%;
+    position: absolute;
+    background-color: $navbar-bg;
+    z-index: 0
+}
+#page-head, #page-content{
+    position: relative;
+}
+
+%page-header{
+    color: $navbar-color;
+}
+
+.page-header{
+    @extend %page-header;
+}
+
+#page-head{
+    &, h1, h2, h3, h4, h5, h6, .text-main,
+    .breadcrumb li, .breadcrumb li a, .breadcrumb .active{
+        @extend %page-header;
+    }
+    .breadcrumb>li+li:before{
+        border-color: $navbar-color
+    }
+    .select select{
+        color: $body-color
+    }
+}
+
+.panel .fixed-fluid [class*="fixed-"] {
+    background-color: transparent
+}
+.fixed-fluid [class*="fixed-"] {
+    background-color: $body-bg;
+    border-radius: $border-radius-base
+}

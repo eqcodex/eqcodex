@@ -1,0 +1,123 @@
+@import "../../_variables";
+
+
+
+// BODY
+//============================================
+$body-bg                    : #343b47;
+$body-color                 : #ababab;
+$body-main-color            : #d4d4d4;
+$boxed-bg                   : lighten($body-bg, 8%);
+$text-muted                 : darken($body-color, 15%);
+
+
+
+// GENERAL COMPONENTS
+//============================================
+$state-active-bg            : #03a9f4;
+$state-active-color         : #fff;
+
+$selection-bg               : $state-active-bg;
+$selection-color            : $state-active-color;
+
+
+// --------------------------------------------
+$border-color-base          : rgba(255,255,255,.03);
+$content-dark               : lighten($body-bg, 4%);
+$component-dark             : lighten($body-bg, 6%);
+
+
+// Links color
+// --------------------------------------------
+$link-color                 : $body-color;
+$link-hover-color           : darken($body-color, 5%);
+
+
+
+// CLEAN ZONE (LOGIN, REGISTER, AND ERROR PAGES CONTAINER)
+//============================================
+$cls-bg                     : $body-bg;
+$cls-color                  : darken($body-color, 7%);
+
+
+
+
+// NAVIGATION
+//============================================
+$mainnav-bg                 : lighten($body-bg, 4%);
+$mainnav-color              : #abb1b7;
+$mainnav-hover-color        : #fff;
+$mainnav-active-bg          : transparent;
+$mainnav-active-color       : #fff;
+$mainnav-active-state       : $state-active-bg;
+$mainnav-profile-bg         : $mainnav-bg;
+$mainnav-profile-color      : $mainnav-active-color;
+
+
+
+
+// NAVBAR & LOGO
+//============================================
+$navbar-bg                  : lighten($body-bg, 1%);
+$navbar-color               : #fff;
+$brand-bg                   : transparent;
+$brand-bg-overlay           : $mainnav-bg;
+$brand-color                : $navbar-color;
+$brand-color-overlay        : $navbar-color;
+
+
+
+
+// ASIDE
+// ============================================
+$aside-width                : 255px;
+$aside-dark-bg              : #344146;
+$aside-dark-color           : #fff;
+$aside-bright-bg            : $content-dark ;
+$aside-bright-color         : $body-color;
+$aside-tabs                 : true;
+
+
+
+
+// FOOTER
+//============================================
+$footer-bg                  : darken($body-bg, 3%);
+$footer-color               : $body-color;
+
+
+
+
+// TIMELINE
+//============================================
+$timeline-bg                : $content-dark ;
+$timeline-color             : $body-color;
+$timeline-border-color      : rgba(255,255,255,.1);
+
+
+
+// Chat
+//============================================
+$chat                       : true;
+$chat-bg                    : lighten($content-dark , 3%);
+$chat-primary-speech-bg     : $info-bg;
+$chat-primary-speech-color  : #ffffff;
+$chat-secondary-speech-bg   : lighten($chat-bg, 7%);
+$chat-secondary-speech-color: $body-color;
+
+
+
+
+// Tooltip
+// --------------------------------------------
+$tooltip                    : true;
+$tooltip-bg                 : lighten($body-bg, 20%);
+
+
+
+
+
+
+//============================================
+@import "../_themes";
+@import "../_themes-dark";

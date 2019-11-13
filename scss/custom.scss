@@ -1,0 +1,161 @@
+
+
+.dark ul {
+    color: white;
+  }
+  .dark li {
+    color: white;
+  }
+  
+  .fixed-nav .nav a {
+    color: #4AA1DB !important;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    margin: 0 0 0 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+    line-height: 0px;
+  }
+  .fixed-nav .navbar-brand {
+    padding: 0px;
+    line-height: 0px;
+    font-size: 0.5em;
+    margin-top: -10px;
+  }
+  
+  .table {
+    margin-bottom: 10px;
+  }
+  
+  .table-bordered td, .table-bordered th {
+    border: 1px solid #434f5c;
+  }
+  
+  .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-color: #434f5c;
+  }
+  
+  .table > thead > tr > td.middle-align, .table > tbody > tr > td.middle-align {
+    vertical-align: middle;
+  }
+  
+  .table > thead > tr > th {
+    border-color: 2px solid #434f5c;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  
+  .table-bordered {
+    border: 1px solid #434f5c;
+  }
+  
+  .table > tbody > tr.success > td, .table > tbody > tr.success > th,
+  .table > tbody > tr > td.success, .table > tbody > tr > th.success,
+  .table > tfoot > tr.success > td, .table > tfoot > tr.success > th,
+  .table > tfoot > tr > td.success, .table > tfoot > tr > th.success,
+  .table > thead > tr.success > td, .table > thead > tr.success > th,
+  .table > thead > tr > td.success, .table > thead > tr > th.success {
+    background-color: fade(#00b19d, 15%);
+  }
+  
+  .table > tbody > tr.info > td, .table > tbody > tr.info > th,
+  .table > tbody > tr > td.info, .table > tbody > tr > th.info,
+  .table > tfoot > tr.info > td, .table > tfoot > tr.info > th,
+  .table > tfoot > tr > td.info, .table > tfoot > tr > th.info,
+  .table > thead > tr.info > td, .table > thead > tr.info > th,
+  .table > thead > tr > td.info, .table > thead > tr > th.info {
+    background-color: fade(#3ddcf7, 15%);
+  }
+  
+  .table > tbody > tr.warning > td, .table > tbody > tr.warning > th,
+  .table > tbody > tr > td.warning, .table > tbody > tr > th.warning,
+  .table > tfoot > tr.warning > td, .table > tfoot > tr.warning > th,
+  .table > tfoot > tr > td.warning, .table > tfoot > tr > th.warning,
+  .table > thead > tr.warning > td, .table > thead > tr.warning > th,
+  .table > thead > tr > td.warning, .table > thead > tr > th.warning {
+    background-color: fade(#ffaa00, 15%);
+  }
+  
+  .table > tbody > tr.danger > td, .table > tbody > tr.danger > th,
+  .table > tbody > tr > td.danger, .table > tbody > tr > th.danger,
+  .table > tfoot > tr.danger > td, .table > tfoot > tr.danger > th,
+  .table > tfoot > tr > td.danger, .table > tfoot > tr > th.danger,
+  .table > thead > tr.danger > td, .table > thead > tr.danger > th,
+  .table > thead > tr > td.danger, .table > thead > tr > th.danger {
+    background-color: fade(#ef5350, 15%);
+  }
+  
+  .table-centered td, .table-centered th {
+    vertical-align: middle;
+  }
+  
+  /* Datatable */
+  div.dataTables_paginate ul.pagination {
+    margin-top: 30px;
+  }
+  
+  div.dataTables_info {
+    padding-top: 38px;
+  }
+  
+  .dt-buttons {
+    float: left;
+  }
+  
+  div#datatable-buttons_info {
+    float: left;
+  }
+  
+  .dark {
+    color: white;
+  }
+  
+  .bs-footer {
+    background-color:#2b2d35;
+    color: white;
+  }
+
+  .twoslice-left {
+    text-align: left;
+    background-color: rgb(67, 72, 80);
+  }
+
+  .twoslice-left ul {
+    margin-top: 20px;
+  }
+  
+  .twoslice-left li {
+    list-style: none;
+    margin: 10px 0px 0px -10px;
+  }
+
+  .twoslice-right {
+    background-color: rgb(84, 89, 99);
+    
+  }
+
+  .well-item {
+    width: 40px;
+    min-height: 20px;
+    border: 1px solid #e3e3e3;
+    background-color: #33373e;
+    border-color: rgba(255, 255, 255, 0.03);
+  }
+
+  .well-item-sm {
+    width: 20px;
+    min-height: 10px;
+    border: 1px solid #e3e3e3;
+    background-color: #33373e;
+    border-color: rgba(255, 255, 255, 0.03);
+  }
+
+  .eqitem {
+    margin-left: 40px;
+  }
+
