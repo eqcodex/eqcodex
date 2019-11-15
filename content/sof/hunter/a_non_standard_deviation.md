@@ -20,4 +20,6 @@ Scorpikis Worry Stone|40%|Healer Power Source
 Deflecting Gear-Shield|20%|Melee Shield
 
 
+{{%sharedloot sof gnome_memorial_mountain%}}
+
 

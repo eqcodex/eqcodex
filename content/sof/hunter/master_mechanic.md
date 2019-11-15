@@ -17,3 +17,4 @@ Name|Chance|Notes
 ---|---|---
 
 
+{{%sharedloot sof gnome_memorial_mountain%}}

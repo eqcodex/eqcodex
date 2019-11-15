@@ -18,10 +18,10 @@ Spells:
 
 Loot:
 
-* <a href="http://everquest.allakhazam.com/db/item.html?item=131656">Axe of Malevolence</a> (Knight 2h)
+Name|Chance|Notes
+---|---|---
+{{% item "Axe of Malevolence" 131656 %}}||Knight 2h
+{{% item "Impervious Guardian's Buckler" 131637 %}}||Melee Shield
+{{% item "Lost Stone Locket" 131616 %}}||Melee Neck
 
-* <a href="http://everquest.allakhazam.com/db/item.html?item=131637">Impervious Guardian's Buckler</a> (Melee Shield)
-
-* <a href="http://everquest.allakhazam.com/db/item.html?item=131616">Lost Stone Locket</a> (Melee Neck)
-
-* {{%expand "RoS Tier 1 Drop Table" %}}<a href="http://everquest.allakhazam.com/db/item.html?item=166">Scale Touched Bracer Facet</a><br><a href="http://everquest.allakhazam.com/db/item.html?item=166">Scale Touched Bracer Facet</a>{{% /expand%}}
+{{%sharedloot ros the_overthere%}}

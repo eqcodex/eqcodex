@@ -1,0 +1,60 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{ $expansion := .Get 0 }}
+{{ $zone := .Get 1 }}
+
+<div class="expand">
+    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
+        <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
+        <span>Zone Loot</span>
+    </div>
+	<div class="expand-content" style="display: none;">	
+		{{ if eq $zone "gnome_memorial_mountain" }}
+			<table>
+				<tr><th>Name</th><th>Chance</th><th>Notes</th></tr>
+				<tr><td>Primordial Dynastic Radiance</td><td>2%</td><td>TBL T3 Armor material</td></tr>
+				<tr><td>Saltpeter</td><td>17%</td><td></td></tr>
+				<tr><td>Couture Clockwork Cloth Hands Ornament</td><td></td><td></td></tr>
+				<tr><td>Couture Clockwork Leather Hands Ornament</td><td></td><td></td></tr>
+				<tr><td>Couture Clockwork Chain Hands Ornament</td><td></td><td></td></tr>
+				<tr><td>Couture Clockwork Plate Hands Ornament</td><td></td><td></td></tr>
+				<tr><td>Whispering Midnight Protecting Magic</td><td>1%</td><td></td></tr>
+			</table>
+		{{ else }}
+		{{ end }}
+    </div>
+</div>
+
+<div class="expand">
+    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
+        <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
+        <span>Expansion Loot</span>
+    </div>
+	<div class="expand-content" style="display: none;">
+		{{ $expansion := .Get 0 }}
+		{{ $zone := .Get 1 }}
+		{{ if eq $expansion "ros" }}
+			<table>
+				<tr><th>Name</th><th>Chance</th><th>Notes</th></tr>
+				<tr><td>Global 1</td><td>1%</td><td>Notes here</td></tr>
+			</table>
+		{{ else if eq $expansion "sof" }}
+		<table>
+			<tr><th>Name</th><th>Chance</th><th>Notes</th></tr>
+			<tr><td>Gnomework Adaptive Plating</td><td>3%</td><td></td></tr>
+		</table>
+		{{ end }}
+    </div>
+</div>
+
+<div class="expand">
+    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
+        <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
+        <span>Global Loot</span>
+    </div>
+	<div class="expand-content" style="display: none;">	
+		<table>
+			<tr><th>Name</th><th>Chance</th><th>Notes</th></tr>
+			<tr><td>Global 1</td><td>1%</td><td>Notes here</td></tr>
+		</table>
+    </div>
+</div>
