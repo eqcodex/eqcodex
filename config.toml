@@ -27,22 +27,23 @@ title = "EQCodex"
 weight = 1
 languageName = "English"
 
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> GitHub"
-identifier = "ds"
-url = "https://github.com/eqcodex/eqcodex"
-weight = 10
-
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
-url = "/credits"
-weight = 30
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-discord'></i> Discord"
 url = "https://discord.gg/nZNvXEm"
-weight = 40
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+identifier = "ds"
+url = "https://github.com/eqcodex/eqcodex"
+weight = 30
+
 
 [Languages.fr]
 title = "EQCodex"
@@ -50,19 +51,19 @@ weight = 2
 languageName = "Français"
 
 [[Languages.fr.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> GitHub"
-identifier = "ds"
-url = "https://github.com/eqcodex/eqcodex"
+name = "<i class='fab fa-fw fa-discord'></i> Discord"
+url = "https://discord.gg/nZNvXEm"
 weight = 10
-
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> Documentation Hugo"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
-weight = 20
 
 [[Languages.fr.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Crédits"
 url = "/credits"
+weight = 20
+
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+identifier = "ds"
+url = "https://github.com/eqcodex/eqcodex"
 weight = 30
+
