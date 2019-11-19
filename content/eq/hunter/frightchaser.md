@@ -1,5 +1,4 @@
 ---
-date: 2019-11-19T07:07:50-06:00
 title: (EQ) Frightchaser
 weight: 1
 hidden: true

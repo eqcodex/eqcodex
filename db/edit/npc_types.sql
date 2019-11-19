@@ -51,6 +51,14 @@ UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 36097; # the th
 # 'a_toxic_jungle_hunter',
 UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 48017; # a_blood_claw_raptor
 
+# 58 crushbone
+UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 58002; # orc warlord
+UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 58032; # emporer crush
+UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 58040; # orc taskmaster
+UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 58057; # the fabled emporer crush
+
+
+
 # 59 mistmoore
 UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 59020; # an avenging caitiff
 UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 59116; # Butler Syncall

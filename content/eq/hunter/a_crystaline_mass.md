@@ -1,5 +1,4 @@
 ---
-date: 2019-11-19T07:07:50-06:00
 title: (EQ) a crystaline mass
 weight: 1
 hidden: true

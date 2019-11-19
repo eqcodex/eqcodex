@@ -1,5 +1,4 @@
 ---
-date: 2019-11-19T09:04:00-06:00
 title: (EQ) a froglok realist
 weight: 1
 hidden: true

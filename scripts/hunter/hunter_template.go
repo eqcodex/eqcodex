@@ -1,7 +1,6 @@
 package main
 
 var hunterTemplate = `---
-date: {{.Date}}
 title: ({{.ExpansionName}}) {{.CleanName}}
 weight: 1
 hidden: true
