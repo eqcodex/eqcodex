@@ -3,8 +3,9 @@ EQCodex Project, visit https://eqcodex.com to visit the live version of this rep
 
 ## Local Setup
 
+docker: `19.03.5`
 
-node: `v13.1.0`
+node: `v13.1.0 (dockerized)`
 
 go: `1.13.4`
 
