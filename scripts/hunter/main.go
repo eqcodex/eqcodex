@@ -54,7 +54,7 @@ func run() error {
 	args := os.Args
 	if len(args) < 2 {
 		fmt.Println("syntax: hunter <expansion> <outpath>")
-		fmt.Println("example: hunter 1 content")
+		fmt.Println("example: hunter 1 ../../content")
 		os.Exit(1)
 	}
 

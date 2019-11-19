@@ -39,7 +39,7 @@ UPDATE npc_types SET rare_spawn = 1 WHERE id IN (
     # Questions:
     # a_razor_tooth_piranha: is it 48226 or 48227? added all
     # a_Tae_Ew_Aggressor: is it 700095, 700081, or 700109? added all
-    48017, 48121, 48136, 48223, 48236, 48224, 48225, 48226, 48227, 700095, 700081, 700109, 48232, 48232, 48233, 48235, 48219, 48241, 48242, 48217, 48243,
+    48017, 48121, 48136, 48223, 48236, 48224, 48225, 48226, 48227, 700095, 700081, 700109, 48232, 48232, 48233, 48235, 48219, 48241, 48242, 48217, 48243
 );
 
 # 48 cazicthule HUNTER
@@ -80,3 +80,12 @@ UPDATE npc_types SET rare_spawn = 1 WHERE id IN (
 # 'a_Thul_Tae_Ew_torturer',
 # 'a_toxic_jungle_hunter',
 UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 48017; # a_blood_claw_raptor
+
+# 818 stratos
+INSERT INTO npc_types (id, name, placeholder, level, hp, rare_spawn)
+VALUES
+    (818000, 'Cloud_Iron_Lance', 'an abundant gale', 113, 90000000, 1);
+
+# 819 aalishai
+
+
