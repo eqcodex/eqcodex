@@ -85,7 +85,7 @@ func run() error {
 			return errors.Wrap(err, query)
 		}
 
-		query = fmt.Sprintf("SELECT name, level, hp, placeholder FROM npc_types WHERE id >= %d*1000 AND id < %d*2000 AND rare_spawn = 1", zone.ID, zone.ID)
+		query = fmt.Sprintf("SELECT name, level, hp, placeholder FROM npc_types WHERE id >= %d*1000 AND id < %d*1000+2000 AND rare_spawn = 1", zone.ID, zone.ID)
 		rows, err := db.Queryx(query)
 		if err != nil {
 			return errors.Wrapf(err, "query %s", query)

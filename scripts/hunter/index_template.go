@@ -7,7 +7,7 @@ description: {{.ExpansionName}} Hunter Cheat Sheet
 weight: 1
 ---
 
-Drops|Name|Placeholder|Zone
----:|---|---|--- 
-{{range .Npcs}}||[{{.CleanName}}]({{.StripName | ToLower}})|{{.Placeholder}}|[{{.Zone.LongName}}](/en/{{.ExpansionName | ToLower}}/exploration/{{.Zone.StripName | ToLower}})
+Drops|Name|Level|Placeholder|Zone
+---:|---|---|---|---
+{{range .Npcs}}||[{{.CleanName}}]({{.StripName | ToLower}})|{{.Level}}|{{.Placeholder}}|[{{.Zone.LongName}}](/en/{{.ExpansionName | ToLower}}/exploration/{{.Zone.StripName | ToLower}})
 {{end}}`

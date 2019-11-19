@@ -27,13 +27,13 @@ db-reset: db-stop
 	(mkdir -p db/base)
 	(mv peq_beta.zip db/base)
 	(cd db/base && unzip peq_beta.zip)
-	@(echo "starting fresh install (this will take ~5 minutes to source")
+	@(echo "starting fresh install (this may take ~5 minutes to build)")
 	@(docker run --rm -e MARIADB_ROOT_PASSWORD=rootpass -e MARIADB_DATABASE=eqemu -e MARIADB_USER=eqemu -e MARIADB_PASSWORD=eqemu -p 127.0.0.1:3306:3306 -v $(PWD)/db:/bitnami/mariadb -v $(PWD)/db:/docker-entrypoint-initdb.d --name eqcodex-db bitnami/mariadb:latest)
 .PHONY: db-quick-reset
 db-quick-reset:
 	-(rm db/.user_scripts_initialized)
 	-(rm -rf db/data)	
-	@(echo "starting fresh install (this will take ~5 minutes to source")
+	@(echo "starting fresh install (this may take ~5 minutes to build)")
 	@(docker run --rm -e MARIADB_ROOT_PASSWORD=rootpass -e MARIADB_DATABASE=eqemu -e MARIADB_USER=eqemu -e MARIADB_PASSWORD=eqemu -p 127.0.0.1:3306:3306 -v $(PWD)/db:/bitnami/mariadb -v $(PWD)/db:/docker-entrypoint-initdb.d --name eqcodex-db bitnami/mariadb:latest)
 .PHONY: db-stop
 db-stop:
