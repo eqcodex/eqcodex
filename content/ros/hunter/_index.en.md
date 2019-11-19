@@ -7,12 +7,12 @@ weight: 1
 
 Drops|Name|Placeholder|Zone
 ---:|---|---|--- 
-<a href=""><i title="ALL Belt - Banshee Wrecked Cincture" class="xa xa-slot-waist melee"></i></a><a href=""><i title="PAL ROG SHD WAR Range - Screaming Strike" class="xa xa-slot-range melee"></i></a>|[Banshee](banshee)|a screeching chokidai|[The Overthere](/en/ros/exploration/the_overthere)
-<a href=""><i title="CLR DRU ENC MAG NEC SHM WIZ Shield - Aura of Sky Shield" class="xa xa-slot-shield healer"></i></a>|[Bloodstalker](bloodstalker)| a blood-stained stalker|[The Overthere](/en/ros/exploration/the_overthere)
-<a href="http://everquest.allakhazam.com/db/item.html?item=131656"><i title="PAL SHD 2HS - Axe of Malevolence" class="xa xa-slot-2hs tank"></i></a> <a href="http://everquest.allakhazam.com/db/item.html?item=131637"><i title="WAR PAL SHD BRD Shield - Impervious Guardian's Buckler" class="xa xa-slot-shield tank"></i></a> <a href="http://everquest.allakhazam.com/db/item.html?item=131616"><i title="ALL (Melee) Neck - Lost Stone Locket" class="xa xa-slot-neck melee"></i></a>|[a bluff golem](a_bluff_golem)|a rocky cliff golem|[The Overthere](/en/ros/exploration/the_overthere)
-||[Drakis](drakis)|a dreadful scorpikis|[The Overthere](/en/ros/exploration/the_overthere)
-||[Fang](fang)|a stonepeep cockatrice|[The Overthere](/en/ros/exploration/the_overthere)
-||[a grotesque succulent](a_grotesque_succulent)|a sickly succulent|[The Overthere](/en/ros/exploration/the_overthere)
+{{% iconlink "ALL Belt - Banshee Wrecked Cincture" 0 "xa xa-slot-waist melee"%}} {{% iconlink "PAL ROG SHD WAR Range - Screaming Strike"  0 "xa xa-slot-range melee" %}}</i></a>|[Banshee](banshee)|a screeching chokidai|[The Overthere](/en/ros/exploration/the_overthere)
+{{% iconlink "CLR DRU ENC MAG NEC SHM WIZ Shield - Aura of Sky Shield" 0 "xa xa-slot-shield healer"%}}|[Bloodstalker](bloodstalker)| a blood-stained stalker|[The Overthere](/en/ros/exploration/the_overthere)
+{{% iconlink "PAL SHD 2HS - Axe of Malevolence" 131656 "xa xa-slot-2hs tank"%}} {{% iconlink "WAR PAL SHD BRD Shield - Impervious Guardian's Buckler" 131637 "xa xa-slot-shield tank"%}} {{% iconlink "ALL (Melee) Neck - Lost Stone Locket" 131616 "xa xa-slot-neck melee"%}}|[a bluff golem](a_bluff_golem)|a rocky cliff golem|[The Overthere](/en/ros/exploration/the_overthere)
+{{% iconlink "All Back - Doomed Drape of Drakis" 0 "xa xa-slot-back" %}} {{% iconlink "BER PAL RNG SHD WAR - Gilded Lance of Empathy" 0 "xa xa-slot-2hp" %}}|[Drakis](drakis)|a dreadful scorpikis|[The Overthere](/en/ros/exploration/the_overthere)
+{{% iconlink "ALL Charm - Charmed Incisor" 0 "xa xa-slot-charm"%}}|[Fang](fang)|a stonepeep cockatrice|[The Overthere](/en/ros/exploration/the_overthere)
+{{% iconlink "Caster Dagger - The Companion's Dagger" 0 "xa xa-slot-1hp caster"%}} {{% iconlink "ALL Shoulder - Virzak's Chipped Pauldrons" 0 "xa xa-slot-shoulder"%}}|[a grotesque succulent](a_grotesque_succulent)|a sickly succulent|[The Overthere](/en/ros/exploration/the_overthere)
 ||[an iron sentinel](an_iron_sentinel)|a rubble golem|[The Overthere](/en/ros/exploration/the_overthere)
 ||[Janissary Virzak](janissary_virzak)|a Wulthan Zealot|[The Overthere](/en/ros/exploration/the_overthere)
 ||[a Kar'Zok lacerator](a_karzok_lacerator)|a Ferreth procurator|[The Overthere](/en/ros/exploration/the_overthere)

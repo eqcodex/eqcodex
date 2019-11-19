@@ -39,3 +39,4 @@ slot-range|voodoo-doll
 slot-ammo|arrow-cluster
 slot-2hp|spear-hook
 slot-shield|attached-shield
+slot-back|cloak

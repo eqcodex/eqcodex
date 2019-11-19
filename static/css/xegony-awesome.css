@@ -863,6 +863,9 @@ div#datatable-buttons_info {
 .tank {
   color: #ff0000; }
 
+.caster {
+  color: #ffaa00; }
+
 .healer {
   color: #00eaff; }
 
@@ -2851,7 +2854,7 @@ body {
 
 @font-face {
   font-family: "eqcodex";
-  src: url("/fonts/eqcodex.eot?80a7899d75f65195a95cc9d6972fa3b4?#iefix") format("embedded-opentype"), url("/fonts/eqcodex.woff2?80a7899d75f65195a95cc9d6972fa3b4") format("woff2"), url("/fonts/eqcodex.woff?80a7899d75f65195a95cc9d6972fa3b4") format("woff"); }
+  src: url("/fonts/eqcodex.eot?1c49cac59c295af180992d8c7535ea3b?#iefix") format("embedded-opentype"), url("/fonts/eqcodex.woff2?1c49cac59c295af180992d8c7535ea3b") format("woff2"), url("/fonts/eqcodex.woff?1c49cac59c295af180992d8c7535ea3b") format("woff"); }
 
 .xa {
   line-height: 1; }
@@ -2862,92 +2865,95 @@ body {
   font-weight: normal !important;
   vertical-align: top; }
 
-.xa-group-caster:before {
+.xa-cloak:before {
   content: "\f101"; }
 
-.xa-group-healer:before {
+.xa-group-caster:before {
   content: "\f102"; }
 
-.xa-group-knight:before {
+.xa-group-healer:before {
   content: "\f103"; }
 
-.xa-group-melee:before {
+.xa-group-knight:before {
   content: "\f104"; }
 
-.xa-slot-1hb:before {
+.xa-group-melee:before {
   content: "\f105"; }
 
-.xa-slot-1hp:before {
+.xa-slot-1hb:before {
   content: "\f106"; }
 
-.xa-slot-1hs:before {
+.xa-slot-1hp:before {
   content: "\f107"; }
 
-.xa-slot-2hb:before {
+.xa-slot-1hs:before {
   content: "\f108"; }
 
-.xa-slot-2hp:before {
+.xa-slot-2hb:before {
   content: "\f109"; }
 
-.xa-slot-2hs:before {
+.xa-slot-2hp:before {
   content: "\f10a"; }
 
-.xa-slot-ammo:before {
+.xa-slot-2hs:before {
   content: "\f10b"; }
 
-.xa-slot-arm:before {
+.xa-slot-ammo:before {
   content: "\f10c"; }
 
-.xa-slot-charm:before {
+.xa-slot-arm:before {
   content: "\f10d"; }
 
-.xa-slot-chest:before {
+.xa-slot-charm:before {
   content: "\f10e"; }
 
-.xa-slot-ear:before {
+.xa-slot-chest:before {
   content: "\f10f"; }
 
-.xa-slot-feet:before {
+.xa-slot-ear:before {
   content: "\f110"; }
 
-.xa-slot-h2h:before {
+.xa-slot-feet:before {
   content: "\f111"; }
 
-.xa-slot-hand:before {
+.xa-slot-h2h:before {
   content: "\f112"; }
 
-.xa-slot-head:before {
+.xa-slot-hand:before {
   content: "\f113"; }
 
-.xa-slot-leg:before {
+.xa-slot-head:before {
   content: "\f114"; }
 
-.xa-slot-mask:before {
+.xa-slot-leg:before {
   content: "\f115"; }
 
-.xa-slot-neck:before {
+.xa-slot-mask:before {
   content: "\f116"; }
 
-.xa-slot-powersource:before {
+.xa-slot-neck:before {
   content: "\f117"; }
 
-.xa-slot-range:before {
+.xa-slot-powersource:before {
   content: "\f118"; }
 
-.xa-slot-ring:before {
+.xa-slot-range:before {
   content: "\f119"; }
 
-.xa-slot-shield:before {
+.xa-slot-ring:before {
   content: "\f11a"; }
 
-.xa-slot-shoulder:before {
+.xa-slot-shield:before {
   content: "\f11b"; }
 
-.xa-slot-waist:before {
+.xa-slot-shoulder:before {
   content: "\f11c"; }
 
-.xa-slot-wrist:before {
+.xa-slot-waist:before {
   content: "\f11d"; }
 
-.xa-slow-bow:before {
+.xa-slot-wrist:before {
   content: "\f11e"; }
+
+.xa-slow-bow:before {
+  content: "\f11f"; }
