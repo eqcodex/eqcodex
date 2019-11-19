@@ -1,6 +1,6 @@
 # Hugo related files
 public/
-
+db/data
 # Firebase configuration files
 .firebaserc
 firebase.json
@@ -19,3 +19,26 @@ firebase*.log
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
+.env.test
+
+# TypeScript cache
+*.tsbuildinfo
+# node-waf configuration
+.lock-wscript
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*

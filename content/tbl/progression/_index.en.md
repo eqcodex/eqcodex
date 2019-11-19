@@ -9,7 +9,7 @@ weight: 25
 |---|---|---|---|---|---|---|---|
 P|[Soldier of Air](soldier_of_air)</a>|1|Solo|[Stratos](/en/tbl/exploration/stratos)|Grieving Soul Scent|deal with|n/a
 P|Fight Fire|1|Group|[Stratos](/en/tbl/exploration/stratos)|Grieving Soul Scent |defeat|ready
-P|Trial of Smoke|1|Group|[Stratos](/en/tbl/exploration/stratos)|Lamp (click)||
+P|[Trial of Smoke](trial_of_smoke)|1|Group|[Stratos](/en/tbl/exploration/stratos)|Lamp (click)||
 P|Prisoner's Dilemma|1|Solo|Empyr|Star Stealing Sage|could|
 P|Palace of Embers|1|Solo|[Stratos](/en/tbl/exploration/stratos)|Great Sky Ocean|news||
 P|Prince Ralafin|1|Group|Empyr|Horizon Blighted Sage|gathered|ready

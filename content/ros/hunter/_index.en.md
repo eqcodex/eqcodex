@@ -7,9 +7,9 @@ weight: 1
 
 Drops|Name|Placeholder|Zone
 ---:|---|---|--- 
-<a href=""><i title="ALL Belt - Banshee Wrecked Cincture" class="xa xa-ocarina"></i></a><a href=""><i title="PAL ROG SHD WAR Range - Screaming Strike" class="xa xa-ocarina tank"></i></a>|[Banshee](banshee)|a screeching chokidai|[The Overthere](/en/ros/exploration/the_overthere)
-<a href=""><i title="CLR DRU ENC MAG NEC SHM WIZ Shield - Aura of Sky Shield" class="xa xa-shield healer"></i></a>|[Bloodstalker](bloodstalker)| a blood-stained stalker|[The Overthere](/en/ros/exploration/the_overthere)
-<a href="http://everquest.allakhazam.com/db/item.html?item=131656"><i title="PAL SHD 2HS - Axe of Malevolence" class="xa xa-axe tank"></i></a> <a href="http://everquest.allakhazam.com/db/item.html?item=131637"><i title="WAR PAL SHD BRD Shield - Impervious Guardian's Buckler" class="xa xa-shield tank"></i></a> <a href="http://everquest.allakhazam.com/db/item.html?item=131616"><i title="ALL (Melee) Neck - Lost Stone Locket" class="xa xa-ocarina dps"></i></a>|[a bluff golem](a_bluff_golem)|a rocky cliff golem|[The Overthere](/en/ros/exploration/the_overthere)
+<a href=""><i title="ALL Belt - Banshee Wrecked Cincture" class="xa xa-slot-waist melee"></i></a><a href=""><i title="PAL ROG SHD WAR Range - Screaming Strike" class="xa xa-slot-range melee"></i></a>|[Banshee](banshee)|a screeching chokidai|[The Overthere](/en/ros/exploration/the_overthere)
+<a href=""><i title="CLR DRU ENC MAG NEC SHM WIZ Shield - Aura of Sky Shield" class="xa xa-slot-shield healer"></i></a>|[Bloodstalker](bloodstalker)| a blood-stained stalker|[The Overthere](/en/ros/exploration/the_overthere)
+<a href="http://everquest.allakhazam.com/db/item.html?item=131656"><i title="PAL SHD 2HS - Axe of Malevolence" class="xa xa-slot-2hs tank"></i></a> <a href="http://everquest.allakhazam.com/db/item.html?item=131637"><i title="WAR PAL SHD BRD Shield - Impervious Guardian's Buckler" class="xa xa-slot-shield tank"></i></a> <a href="http://everquest.allakhazam.com/db/item.html?item=131616"><i title="ALL (Melee) Neck - Lost Stone Locket" class="xa xa-slot-neck melee"></i></a>|[a bluff golem](a_bluff_golem)|a rocky cliff golem|[The Overthere](/en/ros/exploration/the_overthere)
 ||[Drakis](drakis)|a dreadful scorpikis|[The Overthere](/en/ros/exploration/the_overthere)
 ||[Fang](fang)|a stonepeep cockatrice|[The Overthere](/en/ros/exploration/the_overthere)
 ||[a grotesque succulent](a_grotesque_succulent)|a sickly succulent|[The Overthere](/en/ros/exploration/the_overthere)
