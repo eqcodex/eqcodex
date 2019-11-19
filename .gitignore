@@ -1,6 +1,11 @@
 # Hugo related files
 public/
+
+# Database directories
 db/data
+db/base
+db/.user_scripts_initialized
+
 # Firebase configuration files
 .firebaserc
 firebase.json
