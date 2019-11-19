@@ -11,3 +11,4 @@ weight: 25
 |[Butcherblock Mountains](butcherblock_mountains)|1||
 |[Befallen](befallen)|1||
 |[The Castle of Mistmoore](the_castle_of_mistmoore)|1||
+|[The City of Guk](the_city_of_guk)|1||

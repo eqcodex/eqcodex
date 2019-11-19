@@ -62,6 +62,15 @@ UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 59115; # Maid I
 #Mynthi Davissi or a werewolf gypsy (missing werewolf gypsy)
 UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 59150; # Mynthi Davissi
 
+# 65 guktop
+UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 65139; # an ancient croc
+UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 65140; # a froglok gaz squire
+UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 65105; # a froglok realist
+UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 65148; # a froglok scryer
+UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 65128; # the froglok shin lord
+UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 65125; # a froglok summoner
+UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 65104; # the froglok warden
+UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 65146; # a giant heart spider
 
 # 68 butcher
 UPDATE npc_types SET rare_spawn = 1, placeholder = '' WHERE id = 68137; # Glubbsink
