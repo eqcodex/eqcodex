@@ -1,7 +1,7 @@
 ---
 title: (TBL) Hunter
 menuTitle: Hunter
-description: The Burning Lands Hunter Cheat Sheet
+description: Hunter and noteworthy nameds found in The Burning Lands
 weight: 1
 ---
 

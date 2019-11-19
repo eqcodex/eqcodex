@@ -3,6 +3,7 @@ date: 2016-04-09T16:50:16+02:00
 title: (TBL) Progression
 menuTitle: Progression
 weight: 25
+description: Contains a list of all progression tasks found in The Burning Lands expansion
 ---
 
 |C|Task|Tier|Type|Zone|NPC|Start|Enter|
