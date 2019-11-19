@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "eqcodex";
-	src: url("/fonts/eqcodex.eot?1c49cac59c295af180992d8c7535ea3b?#iefix") format("embedded-opentype"),
-url("/fonts/eqcodex.woff2?1c49cac59c295af180992d8c7535ea3b") format("woff2"),
-url("/fonts/eqcodex.woff?1c49cac59c295af180992d8c7535ea3b") format("woff");
+	src: url("/fonts/eqcodex.eot?808ad0814a5a1517effda92299d0f450?#iefix") format("embedded-opentype"),
+url("/fonts/eqcodex.woff2?808ad0814a5a1517effda92299d0f450") format("woff2"),
+url("/fonts/eqcodex.woff?808ad0814a5a1517effda92299d0f450") format("woff");
 }
 
 .xa {
@@ -64,34 +64,34 @@ url("/fonts/eqcodex.woff?1c49cac59c295af180992d8c7535ea3b") format("woff");
 .xa-slot-ear:before {
 	content: "\f110";
 }
-.xa-slot-feet:before {
+.xa-slot-face:before {
 	content: "\f111";
 }
-.xa-slot-h2h:before {
+.xa-slot-feet:before {
 	content: "\f112";
 }
-.xa-slot-hand:before {
+.xa-slot-finger:before {
 	content: "\f113";
 }
-.xa-slot-head:before {
+.xa-slot-h2h:before {
 	content: "\f114";
 }
-.xa-slot-leg:before {
+.xa-slot-hand:before {
 	content: "\f115";
 }
-.xa-slot-mask:before {
+.xa-slot-head:before {
 	content: "\f116";
 }
-.xa-slot-neck:before {
+.xa-slot-leg:before {
 	content: "\f117";
 }
-.xa-slot-powersource:before {
+.xa-slot-neck:before {
 	content: "\f118";
 }
-.xa-slot-range:before {
+.xa-slot-powersource:before {
 	content: "\f119";
 }
-.xa-slot-ring:before {
+.xa-slot-range:before {
 	content: "\f11a";
 }
 .xa-slot-shield:before {

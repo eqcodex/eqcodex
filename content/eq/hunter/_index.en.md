@@ -7,12 +7,12 @@ weight: 1
 
 Drops|Name|Level|Placeholder|Zone
 ---:|---|---|---|---
-||[the thaumaturgist](the_thaumaturgist)|20||[Befallen](/en/eq/exploration/befallen)
-||[Glubbsink](glubbsink)|15||[Butcherblock Mountains](/en/eq/exploration/butcherblock_mountains)
-||[a blood claw raptor](a_blood_claw_raptor)|57||[Accursed Temple of Cazic-Thule](/en/eq/exploration/accursed_temple_of_cazicthule)
-||[a blood fin piranha](a_blood_fin_piranha)|53||[Accursed Temple of Cazic-Thule](/en/eq/exploration/accursed_temple_of_cazicthule)
-||[a crystaline mass](a_crystaline_mass)|59||[Accursed Temple of Cazic-Thule](/en/eq/exploration/accursed_temple_of_cazicthule)
-||[Terrorclaw](terrorclaw)|58||[Accursed Temple of Cazic-Thule](/en/eq/exploration/accursed_temple_of_cazicthule)
+|{{%iconlink "ALL 1hb - Chipped Bone Rod" 0 "xa xa-slot-1hb"%}} {{%iconlink "ALL Feet - Soft Leather Boots" 0 "xa xa-slot-feet"%}} {{%iconlink "NEC 1hp - Dagger of Marnek" 0 "xa xa-slot-1hp caster"%}} {{%iconlink "Caster Chest - Thaumaturgist Robe" 0 "xa xa-slot-chest caster"%}}{{%iconlink "Caster Chest - Gossamer Robe" 0 "xa xa-slot-chest caster"%}}|[the thaumaturgist](the_thaumaturgist)|20||[Befallen](/en/eq/exploration/befallen)
+|{{%iconlink "WAR RNG SHD BRD ROG SHM 1hp - Riptide Spear" 0 "xa xa-slot-1hp"%}}|[Glubbsink](glubbsink)|15||[Butcherblock Mountains](/en/eq/exploration/butcherblock_mountains)
+|{{%iconlink "WAR RNG SHD BRD ROG NEC WIZ MAG ENC 1hp - Bloodclaw" 0 "xa xa-slot-1hp"%}} {{%iconlink "WAR PAL RNG SHD MNK BRD ROG BST BER Leg - Bloodclaw Leggings" 0 "xa xa-slot-leg melee"%}}|[a blood claw raptor](a_blood_claw_raptor)|57||[Accursed Temple of Cazic-Thule](/en/eq/exploration/accursed_temple_of_cazicthule)
+|{{%iconlink "MNK BST h2h - Piranha Scale Fistwraps" 0 "xa xa-slot-h2h melee"%}} {{%iconlink "WIZ MAG Wrist - Piranha Scale Wristwrap" 0 "xa xa-slot-wrist caster"%}}|[a blood fin piranha](a_blood_fin_piranha)|53||[Accursed Temple of Cazic-Thule](/en/eq/exploration/accursed_temple_of_cazicthule)
+|{{%iconlink "NEC WIZ MAG ENC 2hb - Staff of Primordial Summoning" 0 "xa xa-slot-2hb caster"%}}|[a crystaline mass](a_crystaline_mass)|59||[Accursed Temple of Cazic-Thule](/en/eq/exploration/accursed_temple_of_cazicthule)
+|{{%iconlink "CLR DRU SHM Ring - Raptor Tooth Bauble" 0 "xa xa-slot-finger healer"%}} {{%iconlink "NEC Shoulder - Terrorclaw's Hide" 0 "xa xa-slot-shoulder caster"%}}|[Terrorclaw](terrorclaw)|58||[Accursed Temple of Cazic-Thule](/en/eq/exploration/accursed_temple_of_cazicthule)
 ||[Dismay](dismay)|59||[Accursed Temple of Cazic-Thule](/en/eq/exploration/accursed_temple_of_cazicthule)
 ||[a diamond scale piranha](a_diamond_scale_piranha)|56||[Accursed Temple of Cazic-Thule](/en/eq/exploration/accursed_temple_of_cazicthule)
 ||[a graystriped mosquito](a_graystriped_mosquito)|55||[Accursed Temple of Cazic-Thule](/en/eq/exploration/accursed_temple_of_cazicthule)

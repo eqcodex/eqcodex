@@ -15,12 +15,12 @@ group-healer|healing
 group-melee|crossed-swords
 group-caster|fire-spell-cast
 slot-neck|gem-pendant
-slot-ring|globe-ring
+slot-finger|globe-ring
 slot-head|horned-help
 slot-neck|drop-earrings
 slot-hand|gloves
 slot-shoulder|spiked-shoulder-armor
-slot-mask|domino-mask
+slot-face|domino-mask
 slot-arm|arm
 slot-chest|breasplate
 slot-wrist|bracers
