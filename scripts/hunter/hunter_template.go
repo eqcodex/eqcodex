@@ -12,7 +12,7 @@ Name: {{.CleanName}}
 {{if .Placeholder}}
 Placeholder: {{.Placeholder}}{{end}}
 
-Zone: [{{.Zone.LongName}}](/en/{{.ExpansionName | ToLower}}/{{.Zone.StripName | ToLower}})
+Zone: [{{.Zone.LongName}}](/en/{{.ExpansionName | ToLower}}/exploration/{{.Zone.StripName | ToLower}})
 
 Level: {{.Level}}
 

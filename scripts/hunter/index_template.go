@@ -9,5 +9,5 @@ weight: 1
 
 Drops|Name|Placeholder|Zone
 ---:|---|---|--- 
-{{range .Npcs}}||[{{.CleanName}}]({{.StripName}})|{{.Placeholder}}|[{{.Zone.LongName}}](/en/{{.ExpansionName | ToLower}}/exploration/{{.Zone.StripName | ToLower}})
+{{range .Npcs}}||[{{.CleanName}}]({{.StripName | ToLower}})|{{.Placeholder}}|[{{.Zone.LongName}}](/en/{{.ExpansionName | ToLower}}/exploration/{{.Zone.StripName | ToLower}})
 {{end}}`
