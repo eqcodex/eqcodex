@@ -50,12 +50,18 @@ function initLunr() {
  * @return {Array}  results
  */
 function search(queryTerm) {
+
+    if (queryTerm.indexOf("spell ") == 0 && queryTerm.length > 6) {
+        console.log("spell search! "+queryTerm.substring(6))
+    }
+    
     // Find the item in our index corresponding to the lunr one to have more info
     return lunrIndex.search(queryTerm+"^100"+" "+queryTerm+"*^10"+" "+"*"+queryTerm+"^10"+" "+queryTerm+"~2^1").map(function(result) {
             return pagesIndex.filter(function(page) {
                 return page.uri === result.ref;
             })[0];
         });
+        
 }
 
 // Let's get started

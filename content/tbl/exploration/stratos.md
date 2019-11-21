@@ -5,3 +5,7 @@ hidden: true
 ---
 
 Name: Stratos
+
+ID: 818
+
+Short Name: stratos

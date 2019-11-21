@@ -7,92 +7,70 @@ weight: 1
 
 Name|Level|IsAA|Timer|END|Duration|Reuse|Range|Target|Description
 ---|---|---|---|---|---|---|---|---|---|
-[Throw Stone](throw_stone)|1||9|10|10s|30s|30|Single|Deal 1 damage
-Elbow Strike|5||9|20|20s|30s|30|Single|Deal 5 ranged single target damage
-Focused Will Discipline|10||5|1/tick|1m|5m||Self|Regen 3 HP/tick, getting hurt cancels
-Provoke|20||9|85|60s|60s|100|Single|215 Hate
-Resistant Discipline|30||5|3/tick|5m|30m||Self|21 to elemental resists
-Fearless Discipline|40||5|6/tick|60s|30m||Self|Immune to Fear
-Evasive Discipline|52||2|10/tick|3m|7m48s||Self|Avoid Melee by 50%
-Bellow|52||9|175|60s|30s|100|Single|348 Hate 
-Charge Discipline|53||4|45/tick|30s|25m||Self|Increase Chance to Hit by 10000% with All Skills
-Mighty Strike Discipline|54||4|50/tick|30s|25m||Self|Increase Chance to Critical Hit by 10000% with All Skills
-Defensive Discipline|55||2|10/tick|3m|10m30s||Self|Increase Melee Mitigation by 45%
-Myrmidon's Aura|55||-1|165|0|1s||Group|1% Proc Chance, 60 AC Aura
-Furious Discipline|56||3|62/tick|12s|40m||Self|Increase Chance to Riposte by 10000%
-Berate|56||9|200||30|100|Single|535 Hate
-Precision Discipline|57||4|20/tick|1m|25m||Self|Increase All Skills Check 50%
-Fellstrike Discipline|58||4|60/tick|30s|25m||Self|Increase All Skills Damage Modifier by 50%
-Fortitude Discipline|59||3|65/tick|12s|40m||Self|Increase Chance to Avoid Melee by 10000%
-Aggressive Discipline|60||4|25/tick|1m|30m||Self|Increase All Skills Damage Modifier by 30%
-Spirit of Rage Discipline|61||5|75/tick|12s|30m||Self|Increase Agro Multiplier by 50%
-Whirlwind Blade|61||10|540||45s|50|PBAE|1H Slashing Attack for 35 with 10000% Accuracy Mod
-Healing Will Discipline|63||5|33/tick|1m|5m||Self|100 HP/tick, cancel on hit
-Incite|63||9|250|1m|30s|100|Single|735 Hate
-Stonewall Discipline|65||2|11/tick|3m|10m30s||Self|Increase Melee Mitigation by 45%
-Bellow of the Mastruq|65||9|275|1m|30s|100|Single|440 Hate
-Ancient Chaos Cry|65||9|300|1m|30s|100|Single|480 Hate
-Aura of Runes Discipline|66||5|30/tick|1m|15m||Self|400 Rune Self Proc
-Savage Onslaught Discipline|68||6|75/tick|30s|15m||Self|Increase Chance to Critical Hit by 270% with All Skills
-Commanding Voice|68||-1|200|1m|1s|100|Group|Increase Chance to Dodge by 20%
-Cyclone Blade|69||10|605||45s|50|PBAE|1H Slashing Attack for 50 with 10000% Accuracy Mod
-Bazu Bellow|69||8|350||30s|30s|100|200 Hate
-Shocking Defense Discipline|70||7|45/tick|1m|15m||Self|Add Defensive Proc: Stun Effect rate mod 150
-Mock|70||9|350||30s|100|Single|Increase Hate by 1
-<i class="far fa-check" style="color: green"></i> Champion's Aura|70||-1|200||1s||Self|2% Proc Chance, 90 AC Aura
-Aura of Draconic Runes|71||5|40/tick|1m|15m|200|Group|Add Proc 900-1100 Rune
-Final Stand Discipline|72||2|1200 10/s|3m|10m30s||Self|Increase Melee Mitigation by 45%
-Second Wind|72||13|200|2m|36m||Self|Increase Endurance by 144-156 per tick
-Throat Jab|73||-1|250|12s|15s|50|Single|Decrease Spell Haste by 20-25%
-Vortex Blade|74||10|726||45s|50|PBAE|1H Slashing Attack for 60-65 with 10000% Accuracy Mod
-Brutal Onslaught Discipline|74||6|90/tick|30s|15m||Self|Increase Chance to Critical Hit by 270% with All Skills
+<i class="far fa-check" style="color: green"></i> Field Champion|110||-1|770-825|36s|1.5s||Group|739-814 AC
+<i class="far fa-check" style="color: green"></i> Resolute Defense|110||-1|1204-1290|72s|12s||Self|1527-1683 AC
+<i class="far fa-check" style="color: green"></i> Warrior's Bastion|109||16|1676-1796|4m|10m||Self|6346-7334 Hate, Absorb Melee 80% if over 21k dmg
+<i class="far fa-check" style="color: green"></i> Dragonstrike Blades|109||10|1149-1231|PBAE|16450-19010 Hate, 1H Slashing Attack for 160-168 with 10000% Accuracy Mod
+<i class="far fa-check" style="color: green"></i> Cunning Strike|109||9||35s||Single|2H Slashing Attack for 1172-1231 with 10000% Accuracy Mod
+<i class="far fa-check" style="color: green"></i> Stormstrike Defense Discipline|110||7|50/tick|60s|15m||Self|2284-2639 Hate, Defensive Proc: Stun 2.5 up to 113
+<i class="far fa-check" style="color: green"></i> Shield Sunder|110||22|521-562||15s||Single|2H Slashing Attack for 946-1024 with 10000% Accuracy Mod
+Jeer|85||9|571-694||30s|100|Single|Increase Hate by 1958-2379
+Punch Through|84||12|128-156/tick|18s|10m||Self|Increase Chance to Hit by 10000% with All Skills for 35-43 hits
+Maelstrom Blade|84||10|987-1199||45s|50|PBAE|1H Slashing Attack for 90-99 with 10000% Accuracy Mod
+Lionhearted Rally-Cry|83||525|30s|30s|RingAE|Fear up to level 85,Snare 100%
+Shield Topple|83||22|384-443||15s||Single|2H Slashing Attack for 246-302 with 10000% Accuracy Mod
+Fourth Wind|82||13|313 1/tick|2m|36m|196-238 Endurance/tick
+Bazu Bluster|81||8|557-677|30s|30s|100|Single|319-387 Hate
+Armor of Timeworn Runes|81||5|63/tick|60s|15m||Self|Add Proc: Timeworn Runes Effect rate mod 200
+Knuckle Smash|80||10|2250|30s|2m||Single|Decrease All Skills Damage Modifier by 5%
+Sneer|80||9|469-569||30s||Single|1605-1950 Hate
+Whorl Blade|79||10|809-983||45s||Single|Slashing Attack for 74-81 with 10000% Accuracy Mod
+Opportunistic Strike|78||9|736-849||35s|2H Slashing Attack for 689-845 with 10000% Accuracy Mod
+Shield Reflect|77||8|750||10m||Self|Defensive Proc: Reflect Spell 25-35% Damage
+Third Wind|77||13|250 1/tick|2m|36m||Self|Increase Endurance by 161-195 per tick
+Armor of Draconic Runes|76||5|50/tick|60s||Self|Add Proc: Draconic Runes Effect rate mod 200
 Scowl|75||9|420||30s|100|Single|1440-? Hate, 2 hit evasion
+Brutal Onslaught Discipline|74||6|90/tick|30s|15m||Self|Increase Chance to Critical Hit by 270% with All Skills
+Vortex Blade|74||10|726||45s|50|PBAE|1H Slashing Attack for 60-65 with 10000% Accuracy Mod
+Throat Jab|73||-1|250|12s|15s|50|Single|Decrease Spell Haste by 20-25%
+Second Wind|72||13|200|2m|36m||Self|Increase Endurance by 144-156 per tick
+Final Stand Discipline|72||2|1200 10/s|3m|10m30s||Self|Increase Melee Mitigation by 45%Aura of Draconic Runes|71||5|40/tick|1m|15m|200|Group|Add Proc 900-1100 Rune
+<i class="far fa-check" style="color: green"></i> Champion's Aura|70||-1|200||1s||Self|2% Proc Chance, 90 AC Aura
+Mock|70||9|350||30s|100|Single|Increase Hate by 1
+Shocking Defense Discipline|70||7|45/tick|1m|15m||Self|Add Defensive Proc: Stun Effect rate mod 150
+Bazu Bellow|69||8|350||30s|30s|100|200 Hate
+Cyclone Blade|69||10|605||45s|50|PBAE|1H Slashing Attack for 50 with 10000% Accuracy Mod
+Commanding Voice|68||-1|200|1m|1s|100|Group|Increase Chance to Dodge by 20%
+Savage Onslaught Discipline|68||6|75/tick|30s|15m||Self|Increase Chance to Critical Hit by 270% with All Skills
+Aura of Runes Discipline|66||5|30/tick|1m|15m||Self|400 Rune Self Proc
+Ancient Chaos Cry|65||9|300|1m|30s|100|Single|480 Hate
+Bellow of the Mastruq|65||9|275|1m|30s|100|Single|440 Hate
+Stonewall Discipline|65||2|11/tick|3m|10m30s||Self|Increase Melee Mitigation by 45%
+Incite|63||9|250|1m|30s|100|Single|735 Hate
+Healing Will Discipline|63||5|33/tick|1m|5m||Self|100 HP/tick, cancel on hit
+Whirlwind Blade|61||10|540||45s|50|PBAE|1H Slashing Attack for 35 with 10000% Accuracy Mod
+Spirit of Rage Discipline|61||5|75/tick|12s|30m||Self|Increase Agro Multiplier by 50%
+Aggressive Discipline|60||4|25/tick|1m|30m||Self|Increase All Skills Damage Modifier by 30%
+Fortitude Discipline|59||3|65/tick|12s|40m||Self|Increase Chance to Avoid Melee by 10000%
+Fellstrike Discipline|58||4|60/tick|30s|25m||Self|Increase All Skills Damage Modifier by 50%
+Precision Discipline|57||4|20/tick|1m|25m||Self|Increase All Skills Check 50%
+Berate|56||9|200||30|100|Single|535 Hate
+Furious Discipline|56||3|62/tick|12s|40m||Self|Increase Chance to Riposte by 10000%
+Myrmidon's Aura|55||-1|165|0|1s||Group|1% Proc Chance, 60 AC Aura
+Defensive Discipline|55||2|10/tick|3m|10m30s||Self|Increase Melee Mitigation by 45%
+Mighty Strike Discipline|54||4|50/tick|30s|25m||Self|Increase Chance to Critical Hit by 10000% with All Skills
+Charge Discipline|53||4|45/tick|30s|25m||Self|Increase Chance to Hit by 10000% with All Skills
+Bellow|52||9|175|60s|30s|100|Single|348 Hate 
+Evasive Discipline|52||2|10/tick|3m|7m48s||Self|Avoid Melee by 50%
+Fearless Discipline|40||5|6/tick|60s|30m||Self|Immune to Fear
+Resistant Discipline|30||5|3/tick|5m|30m||Self|21 to elemental resists
+Provoke|20||9|85|60s|60s|100|Single|215 Hate
+Focused Will Discipline|10||5|1/tick|1m|5m||Self|Regen 3 HP/tick, getting hurt cancels
+Elbow Strike|5||9|20|20s|30s|30|Single|Deal 5 ranged single target damage
+[Throw Stone](/en/spells/throw_stone)|1||9|10|10s|30s|30|Single|Deal 1 damage
 
-Armor of Draconic Runes|76||	1: Add Proc: Draconic Runes Effect rate mod 200
-Armor of Draconic Runes Rk. II|76	1: Add Proc: Draconic Runes Effect Rk. II rate mod 200
-Armor of Draconic Runes Rk. III|76	1: Add Proc: Draconic Runes Effect Rk. III rate mod 200
-Third Wind|MNK/77 ROG/77 77 BER/77	1: Increase Endurance by 161 per tick
-Third Wind Rk. II|MNK/77 ROG/77 77 BER/77	1: Increase Endurance by 183 per tick
-Third Wind Rk. III|MNK/77 ROG/77 77 BER/77	1: Increase Endurance by 195 per tick
-Shield Reflect|77	1: 100% Chance to trigger: Shield Reflect Effect
-Shield Reflect Rk. II|77	1: 100% Chance to trigger: Shield Reflect Effect II
-Shield Reflect Rk. III|77	1: 100% Chance to trigger: Shield Reflect Effect III
-Opportunistic Strike|78	1: 2H Slashing Attack for 689 with 10000% Accuracy Mod
-Opportunistic Strike Rk. II|78	1: 2H Slashing Attack for 782 with 10000% Accuracy Mod
-Opportunistic Strike Rk. III|78	1: 2H Slashing Attack for 845 with 10000% Accuracy Mod
-Whorl Blade|79	1: 1H Slashing Attack for 74 with 10000% Accuracy Mod
-Whorl Blade Rk. II|79	1: 1H Slashing Attack for 77 with 10000% Accuracy Mod
-Whorl Blade Rk. III|79	1: 1H Slashing Attack for 81 with 10000% Accuracy Mod
-Sneer|80	1: Increase Hate by 1
-Sneer Rk. II|80	1: Increase Hate by 1
-Sneer Rk. III|80	1: Increase Hate by 1
-Knuckle Smash|80	1: Decrease All Skills Damage Modifier by 5%
-Knuckle Smash Rk. II|80	1: Decrease All Skills Damage Modifier by 5%
-Knuckle Smash Rk. III|80	1: Decrease All Skills Damage Modifier by 5%
-Armor of Timeworn Runes|81	1: Add Proc: Timeworn Runes Effect rate mod 200
-Armor of Timeworn Runes Rk. II|81	1: Add Proc: Timeworn Runes Effect Rk. II rate mod 200
-Armor of Timeworn Runes Rk. III|81	1: Add Proc: Timeworn Runes Effect Rk. III rate mod 200
-Bazu Bluster|81	2: Increase Hate by 319
-Bazu Bluster Rk. II|81	2: Increase Hate by 364
-Bazu Bluster Rk. III|81	2: Increase Hate by 387
-Fourth Wind|MNK/82 ROG/82 82 BER/82	1: Increase Endurance by 196 per tick
-Fourth Wind Rk. II|MNK/82 ROG/82 82 BER/82	1: Increase Endurance by 223 per tick
-Fourth Wind Rk. III|MNK/82 ROG/82 82 BER/82	1: Increase Endurance by 238 per tick
-Shield Topple|83	1: 2H Slashing Attack for 246 with 10000% Accuracy Mod
-Shield Topple Rk. II|83	1: 2H Slashing Attack for 279 with 10000% Accuracy Mod
-Shield Topple Rk. III|83	1: 2H Slashing Attack for 302 with 10000% Accuracy Mod
-Lionhearted Rally-Cry|83	1: Fear up to level 85
-Lionhearted Rally-Cry Rk. II|83	1: Fear up to level 85
-Lionhearted Rally-Cry Rk. III|83	1: Fear up to level 85
-Maelstrom Blade|84	1: 1H Slashing Attack for 90 with 10000% Accuracy Mod
-Maelstrom Blade Rk. II|84	1: 1H Slashing Attack for 95 with 10000% Accuracy Mod
-Maelstrom Blade Rk. III|84	1: 1H Slashing Attack for 99 with 10000% Accuracy Mod
-Punch Through|MNK/84 84	1: Increase Chance to Hit by 10000% with All Skills
-Punch Through Rk. II|MNK/84 84	1: Increase Chance to Hit by 10000% with All Skills
-Punch Through Rk. III|MNK/84 84	1: Increase Chance to Hit by 10000% with All Skills
-Jeer|85	1: Increase Hate by 1
-Jeer Rk. II|85	1: Increase Hate by 1
-Jeer Rk. III|85	1: Increase Hate by 1
+
+
 Knuckle Crush|85	1: Decrease All Skills Damage Modifier by 5%
 Knuckle Crush Rk. II|85	1: Decrease All Skills Damage Modifier by 5%
 Knuckle Crush Rk. III|85	1: Decrease All Skills Damage Modifier by 5%

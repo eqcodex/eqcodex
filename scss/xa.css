@@ -1,0 +1,111 @@
+@font-face {
+	font-family: "eqcodex";
+	src: url("/fonts/eqcodex.eot?808ad0814a5a1517effda92299d0f450?#iefix") format("embedded-opentype"),
+url("/fonts/eqcodex.woff2?808ad0814a5a1517effda92299d0f450") format("woff2"),
+url("/fonts/eqcodex.woff?808ad0814a5a1517effda92299d0f450") format("woff");
+}
+
+.xa {
+	line-height: 1;
+}
+
+.xa:before {
+	font-family: eqcodex !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.xa-cloak:before {
+	content: "\f101";
+}
+.xa-group-caster:before {
+	content: "\f102";
+}
+.xa-group-healer:before {
+	content: "\f103";
+}
+.xa-group-knight:before {
+	content: "\f104";
+}
+.xa-group-melee:before {
+	content: "\f105";
+}
+.xa-slot-1hb:before {
+	content: "\f106";
+}
+.xa-slot-1hp:before {
+	content: "\f107";
+}
+.xa-slot-1hs:before {
+	content: "\f108";
+}
+.xa-slot-2hb:before {
+	content: "\f109";
+}
+.xa-slot-2hp:before {
+	content: "\f10a";
+}
+.xa-slot-2hs:before {
+	content: "\f10b";
+}
+.xa-slot-ammo:before {
+	content: "\f10c";
+}
+.xa-slot-arm:before {
+	content: "\f10d";
+}
+.xa-slot-charm:before {
+	content: "\f10e";
+}
+.xa-slot-chest:before {
+	content: "\f10f";
+}
+.xa-slot-ear:before {
+	content: "\f110";
+}
+.xa-slot-face:before {
+	content: "\f111";
+}
+.xa-slot-feet:before {
+	content: "\f112";
+}
+.xa-slot-finger:before {
+	content: "\f113";
+}
+.xa-slot-h2h:before {
+	content: "\f114";
+}
+.xa-slot-hand:before {
+	content: "\f115";
+}
+.xa-slot-head:before {
+	content: "\f116";
+}
+.xa-slot-leg:before {
+	content: "\f117";
+}
+.xa-slot-neck:before {
+	content: "\f118";
+}
+.xa-slot-powersource:before {
+	content: "\f119";
+}
+.xa-slot-range:before {
+	content: "\f11a";
+}
+.xa-slot-shield:before {
+	content: "\f11b";
+}
+.xa-slot-shoulder:before {
+	content: "\f11c";
+}
+.xa-slot-waist:before {
+	content: "\f11d";
+}
+.xa-slot-wrist:before {
+	content: "\f11e";
+}
+.xa-slow-bow:before {
+	content: "\f11f";
+}
