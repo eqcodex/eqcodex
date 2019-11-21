@@ -5,6 +5,11 @@ menuTitle: Blacksmithing
 weight: 1
 ---
 
+<table>
+<tr><th>Name</th><th>Trivial</th><th>Rawr</th></tr>
+<tr><td width="30%">Foo</td><td width="30px">31</td><td></td></tr>
+</table>
+
 |Name|Trivial|Level|Combines|Price|NPC|Zone|
 |---|----|-------|--------|-----|---|-----|
 [Simple Stud](simple_stud)|31|1|25|0||[Crescent Reach](/en/tss/exploration/crescent_reach)

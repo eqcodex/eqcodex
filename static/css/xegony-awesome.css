@@ -2854,7 +2854,7 @@ body {
 
 @font-face {
   font-family: "eqcodex";
-  src: url("/fonts/eqcodex.eot?808ad0814a5a1517effda92299d0f450?#iefix") format("embedded-opentype"), url("/fonts/eqcodex.woff2?808ad0814a5a1517effda92299d0f450") format("woff2"), url("/fonts/eqcodex.woff?808ad0814a5a1517effda92299d0f450") format("woff"); }
+  src: url("/fonts/eqcodex.eot?3c9847c6420d5ca8cdbb40567fd57fab?#iefix") format("embedded-opentype"), url("/fonts/eqcodex.woff2?3c9847c6420d5ca8cdbb40567fd57fab") format("woff2"), url("/fonts/eqcodex.woff?3c9847c6420d5ca8cdbb40567fd57fab") format("woff"); }
 
 .xa {
   line-height: 1; }
@@ -2904,56 +2904,74 @@ body {
 .xa-slot-arm:before {
   content: "\f10d"; }
 
-.xa-slot-charm:before {
+.xa-slot-aug-type13:before {
   content: "\f10e"; }
 
-.xa-slot-chest:before {
+.xa-slot-aug-type22:before {
   content: "\f10f"; }
 
-.xa-slot-ear:before {
+.xa-slot-aug-type3:before {
   content: "\f110"; }
 
-.xa-slot-face:before {
+.xa-slot-aug-type4:before {
   content: "\f111"; }
 
-.xa-slot-feet:before {
+.xa-slot-aug-type5:before {
   content: "\f112"; }
 
-.xa-slot-finger:before {
+.xa-slot-aug-type7:before {
   content: "\f113"; }
 
-.xa-slot-h2h:before {
+.xa-slot-charm:before {
   content: "\f114"; }
 
-.xa-slot-hand:before {
+.xa-slot-chest:before {
   content: "\f115"; }
 
-.xa-slot-head:before {
+.xa-slot-ear:before {
   content: "\f116"; }
 
-.xa-slot-leg:before {
+.xa-slot-face:before {
   content: "\f117"; }
 
-.xa-slot-neck:before {
+.xa-slot-feet:before {
   content: "\f118"; }
 
-.xa-slot-powersource:before {
+.xa-slot-finger:before {
   content: "\f119"; }
 
-.xa-slot-range:before {
+.xa-slot-h2h:before {
   content: "\f11a"; }
 
-.xa-slot-shield:before {
+.xa-slot-hand:before {
   content: "\f11b"; }
 
-.xa-slot-shoulder:before {
+.xa-slot-head:before {
   content: "\f11c"; }
 
-.xa-slot-waist:before {
+.xa-slot-leg:before {
   content: "\f11d"; }
 
-.xa-slot-wrist:before {
+.xa-slot-neck:before {
   content: "\f11e"; }
 
-.xa-slow-bow:before {
+.xa-slot-powersource:before {
   content: "\f11f"; }
+
+.xa-slot-range:before {
+  content: "\f120"; }
+
+.xa-slot-shield:before {
+  content: "\f121"; }
+
+.xa-slot-shoulder:before {
+  content: "\f122"; }
+
+.xa-slot-waist:before {
+  content: "\f123"; }
+
+.xa-slot-wrist:before {
+  content: "\f124"; }
+
+.xa-slow-bow:before {
+  content: "\f125"; }

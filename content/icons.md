@@ -24,6 +24,12 @@ Icon|Name|Code
 <i class="xa xa-slot-2hs"></i>|slot-2hs|xa xa-slot-2hs
 <i class="xa xa-slot-ammo"></i>|slot-ammo|xa xa-slot-ammo
 <i class="xa xa-slot-arm"></i>|slot-arm|xa xa-slot-arm
+<i class="xa xa-slot-aug-type13"></i>|slot-aug-type13|xa xa-slot-aug-type13
+<i class="xa xa-slot-aug-type22"></i>|slot-aug-type22|xa xa-slot-aug-type22
+<i class="xa xa-slot-aug-type3"></i>|slot-aug-type3|xa xa-slot-aug-type3
+<i class="xa xa-slot-aug-type4"></i>|slot-aug-type4|xa xa-slot-aug-type4
+<i class="xa xa-slot-aug-type5"></i>|slot-aug-type5|xa xa-slot-aug-type5
+<i class="xa xa-slot-aug-type7"></i>|slot-aug-type7|xa xa-slot-aug-type7
 <i class="xa xa-slot-charm"></i>|slot-charm|xa xa-slot-charm
 <i class="xa xa-slot-chest"></i>|slot-chest|xa xa-slot-chest
 <i class="xa xa-slot-ear"></i>|slot-ear|xa xa-slot-ear
