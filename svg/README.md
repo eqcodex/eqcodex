@@ -40,3 +40,8 @@ slot-ammo|arrow-cluster
 slot-2hp|spear-hook
 slot-shield|attached-shield
 slot-back|cloak
+slot-aug-type3|rupee
+slot-aug-type4|crystal-wand
+slot-aug-type5|emerald
+slot-aug-type7|diamond
+slot-aug-type13|crystal-cluster
