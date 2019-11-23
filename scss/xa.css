@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "eqcodex";
-	src: url("/fonts/eqcodex.eot?3c9847c6420d5ca8cdbb40567fd57fab?#iefix") format("embedded-opentype"),
-url("/fonts/eqcodex.woff2?3c9847c6420d5ca8cdbb40567fd57fab") format("woff2"),
-url("/fonts/eqcodex.woff?3c9847c6420d5ca8cdbb40567fd57fab") format("woff");
+	src: url("/fonts/eqcodex.eot?d61f53f2a6cf98105530e55fb92a367f?#iefix") format("embedded-opentype"),
+url("/fonts/eqcodex.woff2?d61f53f2a6cf98105530e55fb92a367f") format("woff2"),
+url("/fonts/eqcodex.woff?d61f53f2a6cf98105530e55fb92a367f") format("woff");
 }
 
 .xa {
@@ -16,114 +16,114 @@ url("/fonts/eqcodex.woff?3c9847c6420d5ca8cdbb40567fd57fab") format("woff");
 	vertical-align: top;
 }
 
-.xa-cloak:before {
+.xa-group-caster:before {
 	content: "\f101";
 }
-.xa-group-caster:before {
+.xa-group-healer:before {
 	content: "\f102";
 }
-.xa-group-healer:before {
+.xa-group-knight:before {
 	content: "\f103";
 }
-.xa-group-knight:before {
+.xa-group-melee:before {
 	content: "\f104";
 }
-.xa-group-melee:before {
+.xa-slot-1hb:before {
 	content: "\f105";
 }
-.xa-slot-1hb:before {
+.xa-slot-1hp:before {
 	content: "\f106";
 }
-.xa-slot-1hp:before {
+.xa-slot-1hs:before {
 	content: "\f107";
 }
-.xa-slot-1hs:before {
+.xa-slot-2hb:before {
 	content: "\f108";
 }
-.xa-slot-2hb:before {
+.xa-slot-2hp:before {
 	content: "\f109";
 }
-.xa-slot-2hp:before {
+.xa-slot-2hs:before {
 	content: "\f10a";
 }
-.xa-slot-2hs:before {
+.xa-slot-ammo:before {
 	content: "\f10b";
 }
-.xa-slot-ammo:before {
+.xa-slot-arm:before {
 	content: "\f10c";
 }
-.xa-slot-arm:before {
+.xa-slot-aug-type13:before {
 	content: "\f10d";
 }
-.xa-slot-aug-type13:before {
+.xa-slot-aug-type22:before {
 	content: "\f10e";
 }
-.xa-slot-aug-type22:before {
+.xa-slot-aug-type3:before {
 	content: "\f10f";
 }
-.xa-slot-aug-type3:before {
+.xa-slot-aug-type4:before {
 	content: "\f110";
 }
-.xa-slot-aug-type4:before {
+.xa-slot-aug-type5:before {
 	content: "\f111";
 }
-.xa-slot-aug-type5:before {
+.xa-slot-aug-type7:before {
 	content: "\f112";
 }
-.xa-slot-aug-type7:before {
+.xa-slot-back:before {
 	content: "\f113";
 }
-.xa-slot-charm:before {
+.xa-slot-bow:before {
 	content: "\f114";
 }
-.xa-slot-chest:before {
+.xa-slot-charm:before {
 	content: "\f115";
 }
-.xa-slot-ear:before {
+.xa-slot-chest:before {
 	content: "\f116";
 }
-.xa-slot-face:before {
+.xa-slot-ear:before {
 	content: "\f117";
 }
-.xa-slot-feet:before {
+.xa-slot-face:before {
 	content: "\f118";
 }
-.xa-slot-finger:before {
+.xa-slot-feet:before {
 	content: "\f119";
 }
-.xa-slot-h2h:before {
+.xa-slot-finger:before {
 	content: "\f11a";
 }
-.xa-slot-hand:before {
+.xa-slot-h2h:before {
 	content: "\f11b";
 }
-.xa-slot-head:before {
+.xa-slot-hand:before {
 	content: "\f11c";
 }
-.xa-slot-leg:before {
+.xa-slot-head:before {
 	content: "\f11d";
 }
-.xa-slot-neck:before {
+.xa-slot-leg:before {
 	content: "\f11e";
 }
-.xa-slot-powersource:before {
+.xa-slot-neck:before {
 	content: "\f11f";
 }
-.xa-slot-range:before {
+.xa-slot-powersource:before {
 	content: "\f120";
 }
-.xa-slot-shield:before {
+.xa-slot-range:before {
 	content: "\f121";
 }
-.xa-slot-shoulder:before {
+.xa-slot-shield:before {
 	content: "\f122";
 }
-.xa-slot-waist:before {
+.xa-slot-shoulder:before {
 	content: "\f123";
 }
-.xa-slot-wrist:before {
+.xa-slot-waist:before {
 	content: "\f124";
 }
-.xa-slow-bow:before {
+.xa-slot-wrist:before {
 	content: "\f125";
 }

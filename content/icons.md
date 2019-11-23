@@ -11,7 +11,6 @@ Here is a list of all xegony-awesome icons
 
 Icon|Name|Code
 ---|---|---
-<i class="xa xa-cloak"></i>|cloak|xa xa-cloak
 <i class="xa xa-group-caster"></i>|group-caster|xa xa-group-caster
 <i class="xa xa-group-healer"></i>|group-healer|xa xa-group-healer
 <i class="xa xa-group-knight"></i>|group-knight|xa xa-group-knight
@@ -30,6 +29,8 @@ Icon|Name|Code
 <i class="xa xa-slot-aug-type4"></i>|slot-aug-type4|xa xa-slot-aug-type4
 <i class="xa xa-slot-aug-type5"></i>|slot-aug-type5|xa xa-slot-aug-type5
 <i class="xa xa-slot-aug-type7"></i>|slot-aug-type7|xa xa-slot-aug-type7
+<i class="xa xa-slot-back"></i>|slot-back|xa xa-slot-back
+<i class="xa xa-slot-bow"></i>|slot-bow|xa xa-slot-bow
 <i class="xa xa-slot-charm"></i>|slot-charm|xa xa-slot-charm
 <i class="xa xa-slot-chest"></i>|slot-chest|xa xa-slot-chest
 <i class="xa xa-slot-ear"></i>|slot-ear|xa xa-slot-ear
@@ -47,4 +48,3 @@ Icon|Name|Code
 <i class="xa xa-slot-shoulder"></i>|slot-shoulder|xa xa-slot-shoulder
 <i class="xa xa-slot-waist"></i>|slot-waist|xa xa-slot-waist
 <i class="xa xa-slot-wrist"></i>|slot-wrist|xa xa-slot-wrist
-<i class="xa xa-slow-bow"></i>|slow-bow|xa xa-slow-bow
