@@ -7,5 +7,16 @@ weight: 25
 
 |Name|Tier|Task|Connected|
 |---|---|---|---|
-[Crescent Reach](crescent_reach) (Hub Zone)|1||[Blightfire Moors](blightfire_moors), [Bixie Warfront](/en/cotf/exploration/bixie_warfront)
-[Blightfire Moors](blightfire_moors)|1||
+{{%zone crescent%}}|1||{{%zone moors%}}, {{%zone bixiewarfront%}}
+{{%zone moors%}}|1||
+{{%zone stonehive%}}|1||
+{{%zone mesa%}}|1||
+{{%zone roost%}}|1||
+{{%zone steppes%}}|1||
+{{%zone icefall%}}|1||
+{{%zone valdeholm%}}|1||
+{{%zone frostcrypt%}}|1||
+{{%zone sunderock%}}|1||
+{{%zone vergalid%}}|1||
+{{%zone direwind%}}|1||
+{{%zone ashengate%}}|1||

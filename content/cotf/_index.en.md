@@ -1,6 +1,6 @@
 ---
 title: Call of the Forsaken
-weight: -19
+weight: -21
 pre: ""
 chapter: true
 ---

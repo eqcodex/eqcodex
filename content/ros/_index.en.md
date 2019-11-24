@@ -1,6 +1,6 @@
 ---
 title: Ring of Scale
-weight: -24
+weight: -25
 chapter: true
 ---
 

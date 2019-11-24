@@ -1,6 +1,6 @@
 ---
 title: Torment of Velious
-weight: -26
+weight: -27
 pre: ""
 chapter: true
 ---

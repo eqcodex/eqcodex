@@ -1,10 +1,10 @@
 ---
-title: The Darkened Sea
-weight: -22
+title: The Buried Sea
+weight: -14
 pre: ""
 chapter: true
 ---
 
-### The Darkened Sea
+### The Buried Sea
 
 {{% children depth="3" %}}

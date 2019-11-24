@@ -1,6 +1,6 @@
 ---
 title: Secrets of Faydwer
-weight: -12
+weight: -15
 pre: ""
 chapter: true
 ---

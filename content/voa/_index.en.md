@@ -1,10 +1,10 @@
 ---
-title: The Darkened Sea
-weight: -22
+title: Veil of Alaris
+weight: -19
 pre: ""
 chapter: true
 ---
 
-### The Darkened Sea
+### Veil of Alaris
 
 {{% children depth="3" %}}

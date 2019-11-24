@@ -6,12 +6,12 @@ description: Contains a list of all zones related to The Burning Lands expansion
 weight: 25
 ---
 
-|Name|Tier|Task|Connected|
-|---|---|---|---|
-[Stratos](stratos) (Hub Zone)|1||
-[Aalishai](aalishai)|||
-[Trial of Smoke](trial_of_smoke)|1|[Trial of Smoke](/en/tbl/progression/trial_of_smoke)|[Stratos](stratos)
-[Empyr](empyr)|||
-[Esianti](esianti)|||
-[Mearatas](mearatas)|||
-[Chamber of Tears](chamber_of_tears) (Instance)|||
+Name|Tier|Task|Connected
+---|---|---|---
+{{%zone stratos%}} (Hub)|1||
+{{%zone aalishai%}}|1||
+{{%zone trialsofsmoke%}}|1||
+{{%zone empyr%}}|2||
+{{%zone esianti%}}|2||
+{{%zone mearatas%}}|2||
+{{%zone chamberoftears%}}|2||
