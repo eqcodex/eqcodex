@@ -1,6 +1,6 @@
 ---
 title: Lost Dungeons of Norrath
-weight: -5
+weight: -7
 pre: ""
 chapter: true
 ---
