@@ -1,4 +1,4 @@
 id: 183
 short: tutorial
-long: "Not Found"
-expansion:
+long: "Tutorial"
+expansion: eq

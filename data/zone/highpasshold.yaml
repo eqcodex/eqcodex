@@ -1,4 +1,4 @@
 id: 407
 short: highpasshold
 long: "Highpass Hold"
-expansion:
+expansion: eq

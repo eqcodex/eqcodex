@@ -1,4 +1,4 @@
 id: 999
 short: apprentice
-long: "Not Found"
-expansion:
+long: "Apprentice (Test)"
+expansion: eq

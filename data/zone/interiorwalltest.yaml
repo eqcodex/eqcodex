@@ -1,4 +1,4 @@
 id: 767
 short: interiorwalltest
-long: "Not Found"
-expansion:
+long: "Interior Wall Test"
+expansion: eq

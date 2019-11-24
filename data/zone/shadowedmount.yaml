@@ -1,4 +1,4 @@
 id: 736
 short: shadowedmount
 long: "Shadowed Mount"
-expansion:
+expansion: eq
