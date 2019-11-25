@@ -1,9 +1,9 @@
 ---
-date: 2016-04-09T16:50:16+02:00
 title: (EQ) Exploration
 menuTitle: Exploration
-weight: 25
 ---
+
+{{.Site.Data.zone.airplane}} {{.Site.Home.Content}}
 
 |Name|Tier|Task|Connected|
 |---|---|---|---|
@@ -34,8 +34,8 @@ weight: 25
 {{%zone freporte%}}|1||
 {{%zone freportn%}}|1||
 {{%zone freportw%}} (Removed)|1||
-{{%zone freeporteast%}}
-{{%zone freeportwest%}}
+{{%zone freeporteast%}}|1||
+{{%zone freeportwest%}}|1||
 {{%zone gfaydark%}}|1||
 {{%zone grobb%}}|1||
 {{%zone gukbottom%}}|1||

@@ -568,13 +568,13 @@ ID|Short Name|Long Name
 821|esianti|Esianti: Palace of the Winds
 822|mearatas|Mearatas: The Stone Demesne
 823|chamberoftears|Chamber of Tears
-824|eastwastestwo|Not Found
-825|frozenshadowtwo|Not Found
-826|crystaltwoa|Not Found
-827|greatdividetwo|Not Found
-828|velketortwo|Not Found
-829|kaeltwo|Not Found
-830|crystaltwob|Not Found
+824|eastwastestwo|The Eastern Wastes
+825|frozenshadowtwo|The Tower of Frozen Shadow
+826|crystaltwoa|Ry`Gorr Mines
+827|greatdividetwo|The Great Divide
+828|velketortwo|Velketor's Labyrinth
+829|kaeltwo|Kael Drakkel
+830|crystaltwob|Crystal Caverns
 831|clz-winter|Not Found
 832|clz-anniversary|Not Found
 833|clz-spring|Not Found

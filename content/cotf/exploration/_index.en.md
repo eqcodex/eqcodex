@@ -4,7 +4,6 @@ title: (CoTF) Exploration
 menuTitle: Exploration
 weight: 25
 ---
-
 Name|Tier|Task|Connected
 ---|---|---|---
 {{%zone powar%}}|0||{{%zone potranquility%}}, {{%zone potactics%}}
