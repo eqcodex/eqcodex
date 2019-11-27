@@ -1,7 +1,16 @@
 ---
-title: "A_majestic_cockatrice"
-date: 2019-11-13T00:11:28-08:00
+title: (RoS) a majestic cockatrice
+weight: 1
 hidden: true
+menuTitle: a majestic cockatrice
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: a majestic cockatrice
+
+Placeholder: a stoneglint cockatrice
+
+Zone: [The Overthere](/en/ros/exploration/the_overthere)
+
+Level: 113
+
+Hitpoints: 90000000

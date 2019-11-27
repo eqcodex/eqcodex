@@ -1,7 +1,16 @@
 ---
-title: "A_feverish_marauder"
-date: 2019-11-13T00:11:29-08:00
+title: (RoS) a feverish marauder
+weight: 1
 hidden: true
+menuTitle: a feverish marauder
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: a feverish marauder
+
+Placeholder: a zealot
+
+Zone: [The Skyfire Mountains](/en/ros/exploration/the_skyfire_mountains)
+
+Level: 113
+
+Hitpoints: 90000000

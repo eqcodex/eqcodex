@@ -1,7 +1,16 @@
 ---
-title: "Dragoflux"
-date: 2019-11-13T00:11:29-08:00
+title: (RoS) Dragoflux
+weight: 1
 hidden: true
+menuTitle: Dragoflux
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: Dragoflux
+
+Placeholder: a raging vortex, a sturdy magmite
+
+Zone: [The Skyfire Mountains](/en/ros/exploration/the_skyfire_mountains)
+
+Level: 113
+
+Hitpoints: 90000000

@@ -1,7 +1,16 @@
 ---
-title: "Ash_guardian_tolemak"
-date: 2019-11-13T00:11:30-08:00
+title: (RoS) Ash Guardian Tolemak
+weight: 1
 hidden: true
+menuTitle: Ash Guardian Tolemak
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: Ash Guardian Tolemak
+
+Placeholder: a guardian wurm
+
+Zone: [The Skyfire Mountains](/en/ros/exploration/the_skyfire_mountains)
+
+Level: 113
+
+Hitpoints: 90000000

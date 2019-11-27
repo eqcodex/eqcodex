@@ -1,7 +1,16 @@
 ---
-title: "Shardstubble"
-date: 2019-11-13T00:11:29-08:00
+title: (RoS) Shardstubble
+weight: 1
 hidden: true
+menuTitle: Shardstubble
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: Shardstubble
+
+Placeholder: a fractured magmite, a fragile tyro
+
+Zone: [The Skyfire Mountains](/en/ros/exploration/the_skyfire_mountains)
+
+Level: 113
+
+Hitpoints: 90000000

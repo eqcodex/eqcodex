@@ -1,7 +1,16 @@
 ---
-title: "Old_raspy"
-date: 2019-11-13T00:11:29-08:00
+title: (RoS) Old Raspy
+weight: 1
 hidden: true
+menuTitle: Old Raspy
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: Old Raspy
+
+Placeholder: an old wurm
+
+Zone: [The Skyfire Mountains](/en/ros/exploration/the_skyfire_mountains)
+
+Level: 113
+
+Hitpoints: 90000000

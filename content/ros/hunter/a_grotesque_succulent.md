@@ -1,7 +1,16 @@
 ---
-title: "A_grotesque_succulent"
-date: 2019-11-13T00:11:28-08:00
+title: (RoS) a grotesque succulent
+weight: 1
 hidden: true
+menuTitle: a grotesque succulent
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: a grotesque succulent
+
+Placeholder: a sickly succulent
+
+Zone: [The Overthere](/en/ros/exploration/the_overthere)
+
+Level: 113
+
+Hitpoints: 90000000

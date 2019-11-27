@@ -1,7 +1,16 @@
 ---
-title: "Radiant_overseer_triluan"
-date: 2019-11-13T00:11:30-08:00
+title: (RoS) Radiant Overseer Triluan
+weight: 1
 hidden: true
+menuTitle: Radiant Overseer Triluan
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: Radiant Overseer Triluan
+
+Placeholder: a radiant drake
+
+Zone: [The Skyfire Mountains](/en/ros/exploration/the_skyfire_mountains)
+
+Level: 113
+
+Hitpoints: 90000000

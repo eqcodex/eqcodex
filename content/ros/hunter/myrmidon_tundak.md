@@ -1,7 +1,16 @@
 ---
-title: "Myrmidon_tundak"
-date: 2019-11-13T00:11:29-08:00
+title: (RoS) Myrmidon Tundak
+weight: 1
 hidden: true
+menuTitle: Myrmidon Tundak
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: Myrmidon Tundak
+
+Placeholder: a Krellnakor officer
+
+Zone: [The Overthere](/en/ros/exploration/the_overthere)
+
+Level: 113
+
+Hitpoints: 90000000

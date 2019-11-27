@@ -1,7 +1,16 @@
 ---
-title: "Flamescale_overlord_takarious"
-date: 2019-11-13T00:11:29-08:00
+title: (RoS) Flamescale Overlord Takarious
+weight: 1
 hidden: true
+menuTitle: Flamescale Overlord Takarious
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: Flamescale Overlord Takarious
+
+Placeholder: a Krellnakor overlord
+
+Zone: [The Overthere](/en/ros/exploration/the_overthere)
+
+Level: 113
+
+Hitpoints: 90000000

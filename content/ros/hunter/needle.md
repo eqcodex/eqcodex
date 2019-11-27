@@ -1,7 +1,16 @@
 ---
-title: "Needle"
-date: 2019-11-13T00:11:29-08:00
+title: (RoS) Needle
+weight: 1
 hidden: true
+menuTitle: Needle
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: Needle
+
+Placeholder: a needle-covered succulent
+
+Zone: [The Overthere](/en/ros/exploration/the_overthere)
+
+Level: 113
+
+Hitpoints: 90000000

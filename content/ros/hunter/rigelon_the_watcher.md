@@ -1,7 +1,16 @@
 ---
-title: "Rigelon_the_watcher"
-date: 2019-11-13T00:11:29-08:00
+title: (RoS) Rigelon the Watcher
+weight: 1
 hidden: true
+menuTitle: Rigelon the Watcher
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: Rigelon the Watcher
+
+Placeholder: a shifty scorpikis
+
+Zone: [The Overthere](/en/ros/exploration/the_overthere)
+
+Level: 113
+
+Hitpoints: 90000000

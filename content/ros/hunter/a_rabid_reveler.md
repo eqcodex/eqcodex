@@ -1,7 +1,16 @@
 ---
-title: "A_rabid_reveler"
-date: 2019-11-13T00:11:29-08:00
+title: (RoS) a rabid reveler
+weight: 1
 hidden: true
+menuTitle: a rabid reveler
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: a rabid reveler
+
+Placeholder: a brazen Chetari, a drunken Chetari
+
+Zone: [The Skyfire Mountains](/en/ros/exploration/the_skyfire_mountains)
+
+Level: 113
+
+Hitpoints: 90000000

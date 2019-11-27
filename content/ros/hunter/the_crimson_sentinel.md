@@ -1,7 +1,16 @@
 ---
-title: "the_crimson_sentinel"
-date: 2019-11-13T00:11:30-08:00
+title: (RoS) The Crimson Sentinel
+weight: 1
 hidden: true
+menuTitle: The Crimson Sentinel
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: The Crimson Sentinel
+
+Placeholder: an angry Arcron
+
+Zone: [The Skyfire Mountains](/en/ros/exploration/the_skyfire_mountains)
+
+Level: 113
+
+Hitpoints: 90000000

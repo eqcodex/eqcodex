@@ -1,7 +1,16 @@
 ---
-title: "Saber"
-date: 2019-11-13T00:11:29-08:00
+title: (RoS) Saber
+weight: 1
 hidden: true
+menuTitle: Saber
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: Saber
+
+Placeholder: a raging rhino
+
+Zone: [The Overthere](/en/ros/exploration/the_overthere)
+
+Level: 113
+
+Hitpoints: 90000000

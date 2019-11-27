@@ -1,7 +1,16 @@
 ---
-title: "An_iron_sentinel"
-date: 2019-11-13T00:11:28-08:00
+title: (RoS) an iron sentinel
+weight: 1
 hidden: true
+menuTitle: an iron sentinel
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: an iron sentinel
+
+Placeholder: a rubble golem
+
+Zone: [The Overthere](/en/ros/exploration/the_overthere)
+
+Level: 113
+
+Hitpoints: 90000000

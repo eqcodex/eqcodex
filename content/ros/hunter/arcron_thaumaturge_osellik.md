@@ -1,7 +1,16 @@
 ---
-title: "Arcron_thaumaturge_osellik"
-date: 2019-11-13T00:11:29-08:00
+title: (RoS) Arcron Thaumaturge Osellik
+weight: 1
 hidden: true
+menuTitle: Arcron Thaumaturge Osellik
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: Arcron Thaumaturge Osellik
+
+Placeholder: an arcron thaumaturge
+
+Zone: [The Overthere](/en/ros/exploration/the_overthere)
+
+Level: 113
+
+Hitpoints: 90000000

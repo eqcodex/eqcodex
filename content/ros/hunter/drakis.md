@@ -1,7 +1,16 @@
 ---
-title: "Drakis"
-date: 2019-11-13T00:11:28-08:00
+title: (RoS) Drakis
+weight: 1
 hidden: true
+menuTitle: Drakis
 ---
 
-{{%sharedloot ros the_overthere%}}
+Name: Drakis
+
+Placeholder: a dreadful scorpikis
+
+Zone: [The Overthere](/en/ros/exploration/the_overthere)
+
+Level: 113
+
+Hitpoints: 90000000
